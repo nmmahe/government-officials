@@ -16,6 +16,7 @@ struct PresidentListView: View {
                 NavigationLink(destination: PresidentDetailView(president: president)){
                     PresidentRow(president: president)
                 }
+            .navigationBarTitle("Presidents")
             }
         }
     }

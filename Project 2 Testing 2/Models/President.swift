@@ -71,13 +71,21 @@ struct President: Hashable, Codable, Identifiable{
     private func generateImageName() -> String{
         return "\(self.state_code_slug)-\(self.name_slug)-\(self.party)".trimmingCharacters(in: .whitespacesAndNewlines)
     }
+    func partyColor() -> Color?{
+        if self.party == "democrat"{
+            return Color.blue
+        }
+        else if self.party == "republican" {
+            return Color.red
+        }
+        return Color.black
+    }
     
 }
 
 
 extension President {
     var image: Image {
-        //was imageName
         ImageStore.shared.image(name: generateImageName())
     }
 }

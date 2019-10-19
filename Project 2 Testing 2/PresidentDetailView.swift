@@ -12,7 +12,19 @@ struct PresidentDetailView: View {
     var president: President
     
     var body: some View {
-        Text(president.name)
+        VStack {
+            Text(president.name)
+                .font(.largeTitle)
+            president.image
+            Text(president.party.uppercased())
+                .font(.headline)
+                .foregroundColor(president.partyColor())
+            
+            Text(president.biography)
+            .padding()
+            
+        }
+        
     }
 }
 
