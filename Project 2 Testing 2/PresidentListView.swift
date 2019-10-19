@@ -12,9 +12,9 @@ struct PresidentListView: View {
     var body: some View {
         
         NavigationView {
-            List{
-                NavigationLink(destination: PresidentDetailView()){
-                    Text("President Name")
+            List(presidentData){ president in
+                NavigationLink(destination: PresidentDetailView(president: president)){
+                    PresidentRow(president: president)
                 }
             }
         }

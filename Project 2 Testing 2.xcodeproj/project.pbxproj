@@ -7,6 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012F324B2358BD1E00BDAE6F /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 012F324923580A6E00BDAE6F /* test.json */; };
+		012F324C235ACE4800BDAE6F /* senators.json in Resources */ = {isa = PBXBuildFile; fileRef = 012F324A235819F600BDAE6F /* senators.json */; };
+		012F324D235B68AE00BDAE6F /* Data.swift in Resources */ = {isa = PBXBuildFile; fileRef = 014BD307235696B000F42BF0 /* Data.swift */; };
+		012F32B5235B69CC00BDAE6F /* ks-pat-roberts-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F324F235B69C600BDAE6F /* ks-pat-roberts-republican.jpg */; };
+		012F32B6235B69CC00BDAE6F /* me-susan-collins-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3250235B69C600BDAE6F /* me-susan-collins-republican.jpg */; };
+		012F32B7235B69CC00BDAE6F /* ga-david-perdue-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3251235B69C600BDAE6F /* ga-david-perdue-republican.jpg */; };
+		012F32B8235B69CC00BDAE6F /* ri-jack-reed-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3252235B69C600BDAE6F /* ri-jack-reed-democrat.jpg */; };
+		012F32B9235B69CC00BDAE6F /* ne-deb-fischer-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3253235B69C600BDAE6F /* ne-deb-fischer-republican.jpg */; };
+		012F32BA235B69CC00BDAE6F /* nh-margaret-hassan-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3254235B69C600BDAE6F /* nh-margaret-hassan-democrat.jpg */; };
+		012F32BB235B69CC00BDAE6F /* co-michael-bennet-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3255235B69C600BDAE6F /* co-michael-bennet-democrat.jpg */; };
+		012F32BC235B69CC00BDAE6F /* mo-roy-blunt-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3256235B69C600BDAE6F /* mo-roy-blunt-republican.jpg */; };
+		012F32BD235B69CC00BDAE6F /* az-kyrsten-sinema-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3257235B69C600BDAE6F /* az-kyrsten-sinema-democrat.jpg */; };
+		012F32BE235B69CC00BDAE6F /* tn-lamar-alexander-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3258235B69C600BDAE6F /* tn-lamar-alexander-republican.jpg */; };
+		012F32BF235B69CC00BDAE6F /* nm-tom-udall-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3259235B69C600BDAE6F /* nm-tom-udall-democrat.jpg */; };
+		012F32C0235B69CC00BDAE6F /* ar-john-boozman-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F325A235B69C600BDAE6F /* ar-john-boozman-republican.jpg */; };
+		012F32C1235B69CC00BDAE6F /* wa-maria-cantwell-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F325B235B69C600BDAE6F /* wa-maria-cantwell-democrat.jpg */; };
+		012F32C2235B69CC00BDAE6F /* az-martha-mcsally-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F325C235B69C600BDAE6F /* az-martha-mcsally-republican.jpg */; };
+		012F32C3235B69CC00BDAE6F /* ne-ben-sasse-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F325D235B69C700BDAE6F /* ne-ben-sasse-republican.jpg */; };
+		012F32C4235B69CC00BDAE6F /* sd-mike-rounds-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F325E235B69C700BDAE6F /* sd-mike-rounds-republican.jpg */; };
+		012F32C6235B69CC00BDAE6F /* ga-johnny-isakson-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3260235B69C700BDAE6F /* ga-johnny-isakson-republican.jpg */; };
+		012F32C7235B69CC00BDAE6F /* md-benjamin-cardin-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3261235B69C700BDAE6F /* md-benjamin-cardin-democrat.jpg */; };
+		012F32C8235B69CC00BDAE6F /* mi-debbie-stabenow-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3262235B69C700BDAE6F /* mi-debbie-stabenow-democrat.jpg */; };
+		012F32C9235B69CC00BDAE6F /* mi-gary-peters-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3263235B69C700BDAE6F /* mi-gary-peters-democrat.jpg */; };
+		012F32CA235B69CC00BDAE6F /* wv-shelley-capito-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3264235B69C700BDAE6F /* wv-shelley-capito-republican.jpg */; };
+		012F32CB235B69CC00BDAE6F /* fl-rick-scott-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3265235B69C700BDAE6F /* fl-rick-scott-republican.jpg */; };
+		012F32CC235B69CC00BDAE6F /* or-jeff-merkley-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3266235B69C700BDAE6F /* or-jeff-merkley-democrat.jpg */; };
+		012F32CD235B69CC00BDAE6F /* wy-michael-enzi-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3267235B69C700BDAE6F /* wy-michael-enzi-republican.jpg */; };
+		012F32CE235B69CC00BDAE6F /* co-cory-gardner-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3268235B69C700BDAE6F /* co-cory-gardner-republican.jpg */; };
+		012F32CF235B69CC00BDAE6F /* in-todd-young-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3269235B69C700BDAE6F /* in-todd-young-republican.jpg */; };
+		012F32D0235B69CC00BDAE6F /* ny-kirsten-gillibrand-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F326A235B69C700BDAE6F /* ny-kirsten-gillibrand-democrat.jpg */; };
+		012F32D1235B69CC00BDAE6F /* nc-richard-burr-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F326B235B69C700BDAE6F /* nc-richard-burr-republican.jpg */; };
+		012F32D2235B69CC00BDAE6F /* ut-mike-lee-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F326C235B69C700BDAE6F /* ut-mike-lee-republican.jpg */; };
+		012F32D3235B69CC00BDAE6F /* hi-brian-shcatz-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F326D235B69C700BDAE6F /* hi-brian-shcatz-democrat.jpg */; };
+		012F32D4235B69CC00BDAE6F /* il-richard-durbin-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F326E235B69C700BDAE6F /* il-richard-durbin-democrat.jpg */; };
+		012F32D5235B69CC00BDAE6F /* ok-james-inhofe-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F326F235B69C800BDAE6F /* ok-james-inhofe-republican.jpg */; };
+		012F32D6235B69CC00BDAE6F /* in-mike-braun-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3270235B69C800BDAE6F /* in-mike-braun-republican.jpg */; };
+		012F32D7235B69CC00BDAE6F /* ks-jerry-moran-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3271235B69C800BDAE6F /* ks-jerry-moran-republican.jpg */; };
+		012F32D8235B69CC00BDAE6F /* nj-robert-menendez-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3272235B69C800BDAE6F /* nj-robert-menendez-democrat.jpg */; };
+		012F32D9235B69CC00BDAE6F /* id-james-risch-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3273235B69C800BDAE6F /* id-james-risch-republican.jpg */; };
+		012F32DA235B69CC00BDAE6F /* mn-amy-klobuchar-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3274235B69C800BDAE6F /* mn-amy-klobuchar-democrat.jpg */; };
+		012F32DB235B69CC00BDAE6F /* wi-ron-johnson-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3275235B69C800BDAE6F /* wi-ron-johnson-republican.jpg */; };
+		012F32DC235B69CC00BDAE6F /* sc-lindsey-graham-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3276235B69C800BDAE6F /* sc-lindsey-graham-republican.jpg */; };
+		012F32DD235B69CC00BDAE6F /* ak-lisa-murkowski-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3277235B69C800BDAE6F /* ak-lisa-murkowski-republican.jpg */; };
+		012F32DE235B69CC00BDAE6F /* wa-patty-murray-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3278235B69C800BDAE6F /* wa-patty-murray-democrat.jpg */; };
+		012F32DF235B69CC00BDAE6F /* hi-mazie-hirono-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3279235B69C800BDAE6F /* hi-mazie-hirono-democrat.jpg */; };
+		012F32E0235B69CC00BDAE6F /* vt-patrick-leahy-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F327A235B69C800BDAE6F /* vt-patrick-leahy-democrat.jpg */; };
+		012F32E1235B69CC00BDAE6F /* ia-charles-grassley-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F327B235B69C800BDAE6F /* ia-charles-grassley-republican.jpg */; };
+		012F32E2235B69CC00BDAE6F /* ct-richard-blumenthal-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F327C235B69C800BDAE6F /* ct-richard-blumenthal-democrat.jpg */; };
+		012F32E3235B69CC00BDAE6F /* nv-catherine-masto-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F327D235B69C800BDAE6F /* nv-catherine-masto-democrat.jpg */; };
+		012F32E4235B69CC00BDAE6F /* tx-ted-cruz-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F327E235B69C900BDAE6F /* tx-ted-cruz-republican.jpg */; };
+		012F32E5235B69CC00BDAE6F /* mt-steve-daines-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F327F235B69C900BDAE6F /* mt-steve-daines-republican.jpg */; };
+		012F32E6235B69CC00BDAE6F /* tx-john-cornyn-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3280235B69C900BDAE6F /* tx-john-cornyn-republican.jpg */; };
+		012F32E7235B69CC00BDAE6F /* ia-joni-ernst-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3281235B69C900BDAE6F /* ia-joni-ernst-republican.jpg */; };
+		012F32E8235B69CC00BDAE6F /* ct-christopher-murphy-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3282235B69C900BDAE6F /* ct-christopher-murphy-democrat.jpg */; };
+		012F32E9235B69CC00BDAE6F /* il-tammy-duckworth-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3283235B69C900BDAE6F /* il-tammy-duckworth-democrat.jpg */; };
+		012F32EA235B69CC00BDAE6F /* sc-tim-scott-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3284235B69C900BDAE6F /* sc-tim-scott-republican.jpg */; };
+		012F32EB235B69CC00BDAE6F /* or-ron-wyden-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3285235B69C900BDAE6F /* or-ron-wyden-democrat.jpg */; };
+		012F32EC235B69CC00BDAE6F /* wv-joe-manchin-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3286235B69C900BDAE6F /* wv-joe-manchin-democrat.jpg */; };
+		012F32ED235B69CC00BDAE6F /* ms-roger-wicker-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3287235B69C900BDAE6F /* ms-roger-wicker-republican.jpg */; };
+		012F32EE235B69CC00BDAE6F /* download_senators.rb in Resources */ = {isa = PBXBuildFile; fileRef = 012F3288235B69C900BDAE6F /* download_senators.rb */; };
+		012F32EF235B69CC00BDAE6F /* me-angus-king-independent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3289235B69C900BDAE6F /* me-angus-king-independent.jpg */; };
+		012F32F0235B69CC00BDAE6F /* de-christopher-coons-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F328A235B69C900BDAE6F /* de-christopher-coons-democrat.jpg */; };
+		012F32F1235B69CC00BDAE6F /* al-richard-shelby-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F328B235B69C900BDAE6F /* al-richard-shelby-republican.jpg */; };
+		012F32F2235B69CC00BDAE6F /* ut-mitt-romney-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F328C235B69C900BDAE6F /* ut-mitt-romney-republican.jpg */; };
+		012F32F3235B69CC00BDAE6F /* la-bill-cassidy-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F328D235B69C900BDAE6F /* la-bill-cassidy-republican.jpg */; };
+		012F32F4235B69CC00BDAE6F /* ok-james-lankford-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F328E235B69C900BDAE6F /* ok-james-lankford-republican.jpg */; };
+		012F32F5235B69CC00BDAE6F /* mn-tina-smith-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F328F235B69C900BDAE6F /* mn-tina-smith-democrat.jpg */; };
+		012F32F6235B69CC00BDAE6F /* oh-sherrod-brown-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3290235B69CA00BDAE6F /* oh-sherrod-brown-democrat.jpg */; };
+		012F32F7235B69CC00BDAE6F /* oh-rob-portman-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3291235B69CA00BDAE6F /* oh-rob-portman-republican.jpg */; };
+		012F32F8235B69CC00BDAE6F /* sd-john-thune-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3292235B69CA00BDAE6F /* sd-john-thune-republican.jpg */; };
+		012F32F9235B69CC00BDAE6F /* ma-elizabeth-warren-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3293235B69CA00BDAE6F /* ma-elizabeth-warren-democrat.jpg */; };
+		012F32FA235B69CC00BDAE6F /* ri-sheldon-whitehouse-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3294235B69CA00BDAE6F /* ri-sheldon-whitehouse-democrat.jpg */; };
+		012F32FB235B69CC00BDAE6F /* pa-robert-casey-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3295235B69CA00BDAE6F /* pa-robert-casey-democrat.jpg */; };
+		012F32FC235B69CC00BDAE6F /* al-gordon-jones-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3296235B69CA00BDAE6F /* al-gordon-jones-democrat.jpg */; };
+		012F32FD235B69CC00BDAE6F /* vt-bernard-sanders-independent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3297235B69CA00BDAE6F /* vt-bernard-sanders-independent.jpg */; };
+		012F32FE235B69CC00BDAE6F /* ca-kamala-harris-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3298235B69CA00BDAE6F /* ca-kamala-harris-democrat.jpg */; };
+		012F32FF235B69CC00BDAE6F /* ar-tom-cotton-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3299235B69CA00BDAE6F /* ar-tom-cotton-republican.jpg */; };
+		012F3300235B69CC00BDAE6F /* nv-jacky-rosen-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F329A235B69CA00BDAE6F /* nv-jacky-rosen-democrat.jpg */; };
+		012F3301235B69CC00BDAE6F /* ak-daniel-sullivan-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F329B235B69CA00BDAE6F /* ak-daniel-sullivan-republican.jpg */; };
+		012F3302235B69CC00BDAE6F /* mt-jon-tester-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F329C235B69CA00BDAE6F /* mt-jon-tester-democrat.jpg */; };
+		012F3303235B69CC00BDAE6F /* va-tim-kaine-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F329D235B69CA00BDAE6F /* va-tim-kaine-democrat.jpg */; };
+		012F3304235B69CC00BDAE6F /* ms-thad-cochran-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F329E235B69CA00BDAE6F /* ms-thad-cochran-republican.jpg */; };
+		012F3305235B69CC00BDAE6F /* id-mike-crapo-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F329F235B69CA00BDAE6F /* id-mike-crapo-republican.jpg */; };
+		012F3306235B69CC00BDAE6F /* ma-edward-markey-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A0235B69CA00BDAE6F /* ma-edward-markey-democrat.jpg */; };
+		012F3307235B69CC00BDAE6F /* nd-kevin-cramer-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A1235B69CA00BDAE6F /* nd-kevin-cramer-republican.jpg */; };
+		012F3308235B69CC00BDAE6F /* ky-mitch-mcconnell-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A2235B69CB00BDAE6F /* ky-mitch-mcconnell-republican.jpg */; };
+		012F3309235B69CC00BDAE6F /* md-chris-van-hollen-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A3235B69CB00BDAE6F /* md-chris-van-hollen-democrat.jpg */; };
+		012F330A235B69CC00BDAE6F /* nd-john-hoeven-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A4235B69CB00BDAE6F /* nd-john-hoeven-republican.jpg */; };
+		012F330B235B69CC00BDAE6F /* de-thomas-carper-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A5235B69CB00BDAE6F /* de-thomas-carper-democrat.jpg */; };
+		012F330C235B69CC00BDAE6F /* va-mark-warner-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A6235B69CB00BDAE6F /* va-mark-warner-democrat.jpg */; };
+		012F330D235B69CC00BDAE6F /* nc-thom-tillis-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A7235B69CB00BDAE6F /* nc-thom-tillis-republican.jpg */; };
+		012F330E235B69CC00BDAE6F /* nm-martin-heinrich-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A8235B69CB00BDAE6F /* nm-martin-heinrich-democrat.jpg */; };
+		012F330F235B69CC00BDAE6F /* ky-rand-paul-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32A9235B69CB00BDAE6F /* ky-rand-paul-republican.jpg */; };
+		012F3310235B69CC00BDAE6F /* wy-john-barrasso-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32AA235B69CB00BDAE6F /* wy-john-barrasso-republican.jpg */; };
+		012F3311235B69CC00BDAE6F /* tn-marsha-blackburn-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32AB235B69CB00BDAE6F /* tn-marsha-blackburn-republican.jpg */; };
+		012F3312235B69CC00BDAE6F /* ny-charles-schumer-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32AC235B69CB00BDAE6F /* ny-charles-schumer-democrat.jpg */; };
+		012F3313235B69CC00BDAE6F /* wi-tammy-baldwin-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32AD235B69CB00BDAE6F /* wi-tammy-baldwin-democrat.jpg */; };
+		012F3314235B69CC00BDAE6F /* la-john-kennedy-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32AE235B69CB00BDAE6F /* la-john-kennedy-republican.jpg */; };
+		012F3315235B69CC00BDAE6F /* nh-jeanne-shaheen-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32AF235B69CB00BDAE6F /* nh-jeanne-shaheen-democrat.jpg */; };
+		012F3316235B69CC00BDAE6F /* ca-dianne-feinstein-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32B0235B69CB00BDAE6F /* ca-dianne-feinstein-democrat.jpg */; };
+		012F3317235B69CC00BDAE6F /* nj-cory-booker-democrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32B1235B69CB00BDAE6F /* nj-cory-booker-democrat.jpg */; };
+		012F3318235B69CC00BDAE6F /* mo-josh-hawley-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32B2235B69CB00BDAE6F /* mo-josh-hawley-republican.jpg */; };
+		012F3319235B69CC00BDAE6F /* pa-patrick-toomey-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32B3235B69CB00BDAE6F /* pa-patrick-toomey-republican.jpg */; };
+		012F331A235B69CC00BDAE6F /* fl-marco-rubio-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32B4235B69CC00BDAE6F /* fl-marco-rubio-republican.jpg */; };
 		014BD2E4235665F300F42BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD2E3235665F300F42BF0 /* AppDelegate.swift */; };
 		014BD2E6235665F300F42BF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD2E5235665F300F42BF0 /* SceneDelegate.swift */; };
 		014BD2E8235665F300F42BF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD2E7235665F300F42BF0 /* ContentView.swift */; };
@@ -16,9 +120,114 @@
 		014BD2F8235666B600F42BF0 /* PresidentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD2F7235666B600F42BF0 /* PresidentListView.swift */; };
 		014BD2FA2356673400F42BF0 /* PresidentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD2F92356673400F42BF0 /* PresidentDetailView.swift */; };
 		014BD2FC2356686500F42BF0 /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD2FB2356686500F42BF0 /* President.swift */; };
+		014BD3032356944F00F42BF0 /* PresidentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD3022356944F00F42BF0 /* PresidentRow.swift */; };
+		014BD308235696B000F42BF0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD307235696B000F42BF0 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		012F324923580A6E00BDAE6F /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = test.json; path = ../test.json; sourceTree = "<group>"; };
+		012F324A235819F600BDAE6F /* senators.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = senators.json; sourceTree = "<group>"; };
+		012F324F235B69C600BDAE6F /* ks-pat-roberts-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ks-pat-roberts-republican.jpg"; path = "../../../../../Downloads/senators/ks-pat-roberts-republican.jpg"; sourceTree = "<group>"; };
+		012F3250235B69C600BDAE6F /* me-susan-collins-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "me-susan-collins-republican.jpg"; path = "../../../../../Downloads/senators/me-susan-collins-republican.jpg"; sourceTree = "<group>"; };
+		012F3251235B69C600BDAE6F /* ga-david-perdue-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ga-david-perdue-republican.jpg"; path = "../../../../../Downloads/senators/ga-david-perdue-republican.jpg"; sourceTree = "<group>"; };
+		012F3252235B69C600BDAE6F /* ri-jack-reed-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ri-jack-reed-democrat.jpg"; path = "../../../../../Downloads/senators/ri-jack-reed-democrat.jpg"; sourceTree = "<group>"; };
+		012F3253235B69C600BDAE6F /* ne-deb-fischer-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ne-deb-fischer-republican.jpg"; path = "../../../../../Downloads/senators/ne-deb-fischer-republican.jpg"; sourceTree = "<group>"; };
+		012F3254235B69C600BDAE6F /* nh-margaret-hassan-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nh-margaret-hassan-democrat.jpg"; path = "../../../../../Downloads/senators/nh-margaret-hassan-democrat.jpg"; sourceTree = "<group>"; };
+		012F3255235B69C600BDAE6F /* co-michael-bennet-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "co-michael-bennet-democrat.jpg"; path = "../../../../../Downloads/senators/co-michael-bennet-democrat.jpg"; sourceTree = "<group>"; };
+		012F3256235B69C600BDAE6F /* mo-roy-blunt-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mo-roy-blunt-republican.jpg"; path = "../../../../../Downloads/senators/mo-roy-blunt-republican.jpg"; sourceTree = "<group>"; };
+		012F3257235B69C600BDAE6F /* az-kyrsten-sinema-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "az-kyrsten-sinema-democrat.jpg"; path = "../../../../../Downloads/senators/az-kyrsten-sinema-democrat.jpg"; sourceTree = "<group>"; };
+		012F3258235B69C600BDAE6F /* tn-lamar-alexander-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tn-lamar-alexander-republican.jpg"; path = "../../../../../Downloads/senators/tn-lamar-alexander-republican.jpg"; sourceTree = "<group>"; };
+		012F3259235B69C600BDAE6F /* nm-tom-udall-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nm-tom-udall-democrat.jpg"; path = "../../../../../Downloads/senators/nm-tom-udall-democrat.jpg"; sourceTree = "<group>"; };
+		012F325A235B69C600BDAE6F /* ar-john-boozman-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ar-john-boozman-republican.jpg"; path = "../../../../../Downloads/senators/ar-john-boozman-republican.jpg"; sourceTree = "<group>"; };
+		012F325B235B69C600BDAE6F /* wa-maria-cantwell-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wa-maria-cantwell-democrat.jpg"; path = "../../../../../Downloads/senators/wa-maria-cantwell-democrat.jpg"; sourceTree = "<group>"; };
+		012F325C235B69C600BDAE6F /* az-martha-mcsally-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "az-martha-mcsally-republican.jpg"; path = "../../../../../Downloads/senators/az-martha-mcsally-republican.jpg"; sourceTree = "<group>"; };
+		012F325D235B69C700BDAE6F /* ne-ben-sasse-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ne-ben-sasse-republican.jpg"; path = "../../../../../Downloads/senators/ne-ben-sasse-republican.jpg"; sourceTree = "<group>"; };
+		012F325E235B69C700BDAE6F /* sd-mike-rounds-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sd-mike-rounds-republican.jpg"; path = "../../../../../Downloads/senators/sd-mike-rounds-republican.jpg"; sourceTree = "<group>"; };
+		012F3260235B69C700BDAE6F /* ga-johnny-isakson-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ga-johnny-isakson-republican.jpg"; path = "../../../../../Downloads/senators/ga-johnny-isakson-republican.jpg"; sourceTree = "<group>"; };
+		012F3261235B69C700BDAE6F /* md-benjamin-cardin-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "md-benjamin-cardin-democrat.jpg"; path = "../../../../../Downloads/senators/md-benjamin-cardin-democrat.jpg"; sourceTree = "<group>"; };
+		012F3262235B69C700BDAE6F /* mi-debbie-stabenow-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mi-debbie-stabenow-democrat.jpg"; path = "../../../../../Downloads/senators/mi-debbie-stabenow-democrat.jpg"; sourceTree = "<group>"; };
+		012F3263235B69C700BDAE6F /* mi-gary-peters-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mi-gary-peters-democrat.jpg"; path = "../../../../../Downloads/senators/mi-gary-peters-democrat.jpg"; sourceTree = "<group>"; };
+		012F3264235B69C700BDAE6F /* wv-shelley-capito-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wv-shelley-capito-republican.jpg"; path = "../../../../../Downloads/senators/wv-shelley-capito-republican.jpg"; sourceTree = "<group>"; };
+		012F3265235B69C700BDAE6F /* fl-rick-scott-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fl-rick-scott-republican.jpg"; path = "../../../../../Downloads/senators/fl-rick-scott-republican.jpg"; sourceTree = "<group>"; };
+		012F3266235B69C700BDAE6F /* or-jeff-merkley-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "or-jeff-merkley-democrat.jpg"; path = "../../../../../Downloads/senators/or-jeff-merkley-democrat.jpg"; sourceTree = "<group>"; };
+		012F3267235B69C700BDAE6F /* wy-michael-enzi-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wy-michael-enzi-republican.jpg"; path = "../../../../../Downloads/senators/wy-michael-enzi-republican.jpg"; sourceTree = "<group>"; };
+		012F3268235B69C700BDAE6F /* co-cory-gardner-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "co-cory-gardner-republican.jpg"; path = "../../../../../Downloads/senators/co-cory-gardner-republican.jpg"; sourceTree = "<group>"; };
+		012F3269235B69C700BDAE6F /* in-todd-young-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "in-todd-young-republican.jpg"; path = "../../../../../Downloads/senators/in-todd-young-republican.jpg"; sourceTree = "<group>"; };
+		012F326A235B69C700BDAE6F /* ny-kirsten-gillibrand-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ny-kirsten-gillibrand-democrat.jpg"; path = "../../../../../Downloads/senators/ny-kirsten-gillibrand-democrat.jpg"; sourceTree = "<group>"; };
+		012F326B235B69C700BDAE6F /* nc-richard-burr-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nc-richard-burr-republican.jpg"; path = "../../../../../Downloads/senators/nc-richard-burr-republican.jpg"; sourceTree = "<group>"; };
+		012F326C235B69C700BDAE6F /* ut-mike-lee-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ut-mike-lee-republican.jpg"; path = "../../../../../Downloads/senators/ut-mike-lee-republican.jpg"; sourceTree = "<group>"; };
+		012F326D235B69C700BDAE6F /* hi-brian-shcatz-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hi-brian-shcatz-democrat.jpg"; path = "../../../../../Downloads/senators/hi-brian-shcatz-democrat.jpg"; sourceTree = "<group>"; };
+		012F326E235B69C700BDAE6F /* il-richard-durbin-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "il-richard-durbin-democrat.jpg"; path = "../../../../../Downloads/senators/il-richard-durbin-democrat.jpg"; sourceTree = "<group>"; };
+		012F326F235B69C800BDAE6F /* ok-james-inhofe-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ok-james-inhofe-republican.jpg"; path = "../../../../../Downloads/senators/ok-james-inhofe-republican.jpg"; sourceTree = "<group>"; };
+		012F3270235B69C800BDAE6F /* in-mike-braun-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "in-mike-braun-republican.jpg"; path = "../../../../../Downloads/senators/in-mike-braun-republican.jpg"; sourceTree = "<group>"; };
+		012F3271235B69C800BDAE6F /* ks-jerry-moran-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ks-jerry-moran-republican.jpg"; path = "../../../../../Downloads/senators/ks-jerry-moran-republican.jpg"; sourceTree = "<group>"; };
+		012F3272235B69C800BDAE6F /* nj-robert-menendez-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nj-robert-menendez-democrat.jpg"; path = "../../../../../Downloads/senators/nj-robert-menendez-democrat.jpg"; sourceTree = "<group>"; };
+		012F3273235B69C800BDAE6F /* id-james-risch-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "id-james-risch-republican.jpg"; path = "../../../../../Downloads/senators/id-james-risch-republican.jpg"; sourceTree = "<group>"; };
+		012F3274235B69C800BDAE6F /* mn-amy-klobuchar-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mn-amy-klobuchar-democrat.jpg"; path = "../../../../../Downloads/senators/mn-amy-klobuchar-democrat.jpg"; sourceTree = "<group>"; };
+		012F3275235B69C800BDAE6F /* wi-ron-johnson-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wi-ron-johnson-republican.jpg"; path = "../../../../../Downloads/senators/wi-ron-johnson-republican.jpg"; sourceTree = "<group>"; };
+		012F3276235B69C800BDAE6F /* sc-lindsey-graham-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sc-lindsey-graham-republican.jpg"; path = "../../../../../Downloads/senators/sc-lindsey-graham-republican.jpg"; sourceTree = "<group>"; };
+		012F3277235B69C800BDAE6F /* ak-lisa-murkowski-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ak-lisa-murkowski-republican.jpg"; path = "../../../../../Downloads/senators/ak-lisa-murkowski-republican.jpg"; sourceTree = "<group>"; };
+		012F3278235B69C800BDAE6F /* wa-patty-murray-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wa-patty-murray-democrat.jpg"; path = "../../../../../Downloads/senators/wa-patty-murray-democrat.jpg"; sourceTree = "<group>"; };
+		012F3279235B69C800BDAE6F /* hi-mazie-hirono-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hi-mazie-hirono-democrat.jpg"; path = "../../../../../Downloads/senators/hi-mazie-hirono-democrat.jpg"; sourceTree = "<group>"; };
+		012F327A235B69C800BDAE6F /* vt-patrick-leahy-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "vt-patrick-leahy-democrat.jpg"; path = "../../../../../Downloads/senators/vt-patrick-leahy-democrat.jpg"; sourceTree = "<group>"; };
+		012F327B235B69C800BDAE6F /* ia-charles-grassley-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ia-charles-grassley-republican.jpg"; path = "../../../../../Downloads/senators/ia-charles-grassley-republican.jpg"; sourceTree = "<group>"; };
+		012F327C235B69C800BDAE6F /* ct-richard-blumenthal-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ct-richard-blumenthal-democrat.jpg"; path = "../../../../../Downloads/senators/ct-richard-blumenthal-democrat.jpg"; sourceTree = "<group>"; };
+		012F327D235B69C800BDAE6F /* nv-catherine-masto-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nv-catherine-masto-democrat.jpg"; path = "../../../../../Downloads/senators/nv-catherine-masto-democrat.jpg"; sourceTree = "<group>"; };
+		012F327E235B69C900BDAE6F /* tx-ted-cruz-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tx-ted-cruz-republican.jpg"; path = "../../../../../Downloads/senators/tx-ted-cruz-republican.jpg"; sourceTree = "<group>"; };
+		012F327F235B69C900BDAE6F /* mt-steve-daines-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mt-steve-daines-republican.jpg"; path = "../../../../../Downloads/senators/mt-steve-daines-republican.jpg"; sourceTree = "<group>"; };
+		012F3280235B69C900BDAE6F /* tx-john-cornyn-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tx-john-cornyn-republican.jpg"; path = "../../../../../Downloads/senators/tx-john-cornyn-republican.jpg"; sourceTree = "<group>"; };
+		012F3281235B69C900BDAE6F /* ia-joni-ernst-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ia-joni-ernst-republican.jpg"; path = "../../../../../Downloads/senators/ia-joni-ernst-republican.jpg"; sourceTree = "<group>"; };
+		012F3282235B69C900BDAE6F /* ct-christopher-murphy-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ct-christopher-murphy-democrat.jpg"; path = "../../../../../Downloads/senators/ct-christopher-murphy-democrat.jpg"; sourceTree = "<group>"; };
+		012F3283235B69C900BDAE6F /* il-tammy-duckworth-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "il-tammy-duckworth-democrat.jpg"; path = "../../../../../Downloads/senators/il-tammy-duckworth-democrat.jpg"; sourceTree = "<group>"; };
+		012F3284235B69C900BDAE6F /* sc-tim-scott-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sc-tim-scott-republican.jpg"; path = "../../../../../Downloads/senators/sc-tim-scott-republican.jpg"; sourceTree = "<group>"; };
+		012F3285235B69C900BDAE6F /* or-ron-wyden-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "or-ron-wyden-democrat.jpg"; path = "../../../../../Downloads/senators/or-ron-wyden-democrat.jpg"; sourceTree = "<group>"; };
+		012F3286235B69C900BDAE6F /* wv-joe-manchin-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wv-joe-manchin-democrat.jpg"; path = "../../../../../Downloads/senators/wv-joe-manchin-democrat.jpg"; sourceTree = "<group>"; };
+		012F3287235B69C900BDAE6F /* ms-roger-wicker-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ms-roger-wicker-republican.jpg"; path = "../../../../../Downloads/senators/ms-roger-wicker-republican.jpg"; sourceTree = "<group>"; };
+		012F3288235B69C900BDAE6F /* download_senators.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = download_senators.rb; path = ../../../../../Downloads/senators/download_senators.rb; sourceTree = "<group>"; };
+		012F3289235B69C900BDAE6F /* me-angus-king-independent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "me-angus-king-independent.jpg"; path = "../../../../../Downloads/senators/me-angus-king-independent.jpg"; sourceTree = "<group>"; };
+		012F328A235B69C900BDAE6F /* de-christopher-coons-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "de-christopher-coons-democrat.jpg"; path = "../../../../../Downloads/senators/de-christopher-coons-democrat.jpg"; sourceTree = "<group>"; };
+		012F328B235B69C900BDAE6F /* al-richard-shelby-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "al-richard-shelby-republican.jpg"; path = "../../../../../Downloads/senators/al-richard-shelby-republican.jpg"; sourceTree = "<group>"; };
+		012F328C235B69C900BDAE6F /* ut-mitt-romney-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ut-mitt-romney-republican.jpg"; path = "../../../../../Downloads/senators/ut-mitt-romney-republican.jpg"; sourceTree = "<group>"; };
+		012F328D235B69C900BDAE6F /* la-bill-cassidy-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "la-bill-cassidy-republican.jpg"; path = "../../../../../Downloads/senators/la-bill-cassidy-republican.jpg"; sourceTree = "<group>"; };
+		012F328E235B69C900BDAE6F /* ok-james-lankford-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ok-james-lankford-republican.jpg"; path = "../../../../../Downloads/senators/ok-james-lankford-republican.jpg"; sourceTree = "<group>"; };
+		012F328F235B69C900BDAE6F /* mn-tina-smith-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mn-tina-smith-democrat.jpg"; path = "../../../../../Downloads/senators/mn-tina-smith-democrat.jpg"; sourceTree = "<group>"; };
+		012F3290235B69CA00BDAE6F /* oh-sherrod-brown-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "oh-sherrod-brown-democrat.jpg"; path = "../../../../../Downloads/senators/oh-sherrod-brown-democrat.jpg"; sourceTree = "<group>"; };
+		012F3291235B69CA00BDAE6F /* oh-rob-portman-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "oh-rob-portman-republican.jpg"; path = "../../../../../Downloads/senators/oh-rob-portman-republican.jpg"; sourceTree = "<group>"; };
+		012F3292235B69CA00BDAE6F /* sd-john-thune-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sd-john-thune-republican.jpg"; path = "../../../../../Downloads/senators/sd-john-thune-republican.jpg"; sourceTree = "<group>"; };
+		012F3293235B69CA00BDAE6F /* ma-elizabeth-warren-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ma-elizabeth-warren-democrat.jpg"; path = "../../../../../Downloads/senators/ma-elizabeth-warren-democrat.jpg"; sourceTree = "<group>"; };
+		012F3294235B69CA00BDAE6F /* ri-sheldon-whitehouse-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ri-sheldon-whitehouse-democrat.jpg"; path = "../../../../../Downloads/senators/ri-sheldon-whitehouse-democrat.jpg"; sourceTree = "<group>"; };
+		012F3295235B69CA00BDAE6F /* pa-robert-casey-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pa-robert-casey-democrat.jpg"; path = "../../../../../Downloads/senators/pa-robert-casey-democrat.jpg"; sourceTree = "<group>"; };
+		012F3296235B69CA00BDAE6F /* al-gordon-jones-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "al-gordon-jones-democrat.jpg"; path = "../../../../../Downloads/senators/al-gordon-jones-democrat.jpg"; sourceTree = "<group>"; };
+		012F3297235B69CA00BDAE6F /* vt-bernard-sanders-independent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "vt-bernard-sanders-independent.jpg"; path = "../../../../../Downloads/senators/vt-bernard-sanders-independent.jpg"; sourceTree = "<group>"; };
+		012F3298235B69CA00BDAE6F /* ca-kamala-harris-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ca-kamala-harris-democrat.jpg"; path = "../../../../../Downloads/senators/ca-kamala-harris-democrat.jpg"; sourceTree = "<group>"; };
+		012F3299235B69CA00BDAE6F /* ar-tom-cotton-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ar-tom-cotton-republican.jpg"; path = "../../../../../Downloads/senators/ar-tom-cotton-republican.jpg"; sourceTree = "<group>"; };
+		012F329A235B69CA00BDAE6F /* nv-jacky-rosen-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nv-jacky-rosen-democrat.jpg"; path = "../../../../../Downloads/senators/nv-jacky-rosen-democrat.jpg"; sourceTree = "<group>"; };
+		012F329B235B69CA00BDAE6F /* ak-daniel-sullivan-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ak-daniel-sullivan-republican.jpg"; path = "../../../../../Downloads/senators/ak-daniel-sullivan-republican.jpg"; sourceTree = "<group>"; };
+		012F329C235B69CA00BDAE6F /* mt-jon-tester-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mt-jon-tester-democrat.jpg"; path = "../../../../../Downloads/senators/mt-jon-tester-democrat.jpg"; sourceTree = "<group>"; };
+		012F329D235B69CA00BDAE6F /* va-tim-kaine-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "va-tim-kaine-democrat.jpg"; path = "../../../../../Downloads/senators/va-tim-kaine-democrat.jpg"; sourceTree = "<group>"; };
+		012F329E235B69CA00BDAE6F /* ms-thad-cochran-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ms-thad-cochran-republican.jpg"; path = "../../../../../Downloads/senators/ms-thad-cochran-republican.jpg"; sourceTree = "<group>"; };
+		012F329F235B69CA00BDAE6F /* id-mike-crapo-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "id-mike-crapo-republican.jpg"; path = "../../../../../Downloads/senators/id-mike-crapo-republican.jpg"; sourceTree = "<group>"; };
+		012F32A0235B69CA00BDAE6F /* ma-edward-markey-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ma-edward-markey-democrat.jpg"; path = "../../../../../Downloads/senators/ma-edward-markey-democrat.jpg"; sourceTree = "<group>"; };
+		012F32A1235B69CA00BDAE6F /* nd-kevin-cramer-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nd-kevin-cramer-republican.jpg"; path = "../../../../../Downloads/senators/nd-kevin-cramer-republican.jpg"; sourceTree = "<group>"; };
+		012F32A2235B69CB00BDAE6F /* ky-mitch-mcconnell-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ky-mitch-mcconnell-republican.jpg"; path = "../../../../../Downloads/senators/ky-mitch-mcconnell-republican.jpg"; sourceTree = "<group>"; };
+		012F32A3235B69CB00BDAE6F /* md-chris-van-hollen-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "md-chris-van-hollen-democrat.jpg"; path = "../../../../../Downloads/senators/md-chris-van-hollen-democrat.jpg"; sourceTree = "<group>"; };
+		012F32A4235B69CB00BDAE6F /* nd-john-hoeven-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nd-john-hoeven-republican.jpg"; path = "../../../../../Downloads/senators/nd-john-hoeven-republican.jpg"; sourceTree = "<group>"; };
+		012F32A5235B69CB00BDAE6F /* de-thomas-carper-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "de-thomas-carper-democrat.jpg"; path = "../../../../../Downloads/senators/de-thomas-carper-democrat.jpg"; sourceTree = "<group>"; };
+		012F32A6235B69CB00BDAE6F /* va-mark-warner-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "va-mark-warner-democrat.jpg"; path = "../../../../../Downloads/senators/va-mark-warner-democrat.jpg"; sourceTree = "<group>"; };
+		012F32A7235B69CB00BDAE6F /* nc-thom-tillis-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nc-thom-tillis-republican.jpg"; path = "../../../../../Downloads/senators/nc-thom-tillis-republican.jpg"; sourceTree = "<group>"; };
+		012F32A8235B69CB00BDAE6F /* nm-martin-heinrich-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nm-martin-heinrich-democrat.jpg"; path = "../../../../../Downloads/senators/nm-martin-heinrich-democrat.jpg"; sourceTree = "<group>"; };
+		012F32A9235B69CB00BDAE6F /* ky-rand-paul-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ky-rand-paul-republican.jpg"; path = "../../../../../Downloads/senators/ky-rand-paul-republican.jpg"; sourceTree = "<group>"; };
+		012F32AA235B69CB00BDAE6F /* wy-john-barrasso-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wy-john-barrasso-republican.jpg"; path = "../../../../../Downloads/senators/wy-john-barrasso-republican.jpg"; sourceTree = "<group>"; };
+		012F32AB235B69CB00BDAE6F /* tn-marsha-blackburn-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tn-marsha-blackburn-republican.jpg"; path = "../../../../../Downloads/senators/tn-marsha-blackburn-republican.jpg"; sourceTree = "<group>"; };
+		012F32AC235B69CB00BDAE6F /* ny-charles-schumer-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ny-charles-schumer-democrat.jpg"; path = "../../../../../Downloads/senators/ny-charles-schumer-democrat.jpg"; sourceTree = "<group>"; };
+		012F32AD235B69CB00BDAE6F /* wi-tammy-baldwin-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wi-tammy-baldwin-democrat.jpg"; path = "../../../../../Downloads/senators/wi-tammy-baldwin-democrat.jpg"; sourceTree = "<group>"; };
+		012F32AE235B69CB00BDAE6F /* la-john-kennedy-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "la-john-kennedy-republican.jpg"; path = "../../../../../Downloads/senators/la-john-kennedy-republican.jpg"; sourceTree = "<group>"; };
+		012F32AF235B69CB00BDAE6F /* nh-jeanne-shaheen-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nh-jeanne-shaheen-democrat.jpg"; path = "../../../../../Downloads/senators/nh-jeanne-shaheen-democrat.jpg"; sourceTree = "<group>"; };
+		012F32B0235B69CB00BDAE6F /* ca-dianne-feinstein-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ca-dianne-feinstein-democrat.jpg"; path = "../../../../../Downloads/senators/ca-dianne-feinstein-democrat.jpg"; sourceTree = "<group>"; };
+		012F32B1235B69CB00BDAE6F /* nj-cory-booker-democrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nj-cory-booker-democrat.jpg"; path = "../../../../../Downloads/senators/nj-cory-booker-democrat.jpg"; sourceTree = "<group>"; };
+		012F32B2235B69CB00BDAE6F /* mo-josh-hawley-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mo-josh-hawley-republican.jpg"; path = "../../../../../Downloads/senators/mo-josh-hawley-republican.jpg"; sourceTree = "<group>"; };
+		012F32B3235B69CB00BDAE6F /* pa-patrick-toomey-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pa-patrick-toomey-republican.jpg"; path = "../../../../../Downloads/senators/pa-patrick-toomey-republican.jpg"; sourceTree = "<group>"; };
+		012F32B4235B69CC00BDAE6F /* fl-marco-rubio-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fl-marco-rubio-republican.jpg"; path = "../../../../../Downloads/senators/fl-marco-rubio-republican.jpg"; sourceTree = "<group>"; };
 		014BD2E0235665F300F42BF0 /* Project 2 Testing 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 2 Testing 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		014BD2E3235665F300F42BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		014BD2E5235665F300F42BF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +239,8 @@
 		014BD2F7235666B600F42BF0 /* PresidentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentListView.swift; sourceTree = "<group>"; };
 		014BD2F92356673400F42BF0 /* PresidentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentDetailView.swift; sourceTree = "<group>"; };
 		014BD2FB2356686500F42BF0 /* President.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = President.swift; sourceTree = "<group>"; };
+		014BD3022356944F00F42BF0 /* PresidentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentRow.swift; sourceTree = "<group>"; };
+		014BD307235696B000F42BF0 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +254,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012F324E235B692900BDAE6F /* SenatorImages */ = {
+			isa = PBXGroup;
+			children = (
+				012F329B235B69CA00BDAE6F /* ak-daniel-sullivan-republican.jpg */,
+				012F3277235B69C800BDAE6F /* ak-lisa-murkowski-republican.jpg */,
+				012F3296235B69CA00BDAE6F /* al-gordon-jones-democrat.jpg */,
+				012F328B235B69C900BDAE6F /* al-richard-shelby-republican.jpg */,
+				012F325A235B69C600BDAE6F /* ar-john-boozman-republican.jpg */,
+				012F3299235B69CA00BDAE6F /* ar-tom-cotton-republican.jpg */,
+				012F3257235B69C600BDAE6F /* az-kyrsten-sinema-democrat.jpg */,
+				012F325C235B69C600BDAE6F /* az-martha-mcsally-republican.jpg */,
+				012F32B0235B69CB00BDAE6F /* ca-dianne-feinstein-democrat.jpg */,
+				012F3298235B69CA00BDAE6F /* ca-kamala-harris-democrat.jpg */,
+				012F3268235B69C700BDAE6F /* co-cory-gardner-republican.jpg */,
+				012F3255235B69C600BDAE6F /* co-michael-bennet-democrat.jpg */,
+				012F3282235B69C900BDAE6F /* ct-christopher-murphy-democrat.jpg */,
+				012F327C235B69C800BDAE6F /* ct-richard-blumenthal-democrat.jpg */,
+				012F328A235B69C900BDAE6F /* de-christopher-coons-democrat.jpg */,
+				012F32A5235B69CB00BDAE6F /* de-thomas-carper-democrat.jpg */,
+				012F3288235B69C900BDAE6F /* download_senators.rb */,
+				012F32B4235B69CC00BDAE6F /* fl-marco-rubio-republican.jpg */,
+				012F3265235B69C700BDAE6F /* fl-rick-scott-republican.jpg */,
+				012F3251235B69C600BDAE6F /* ga-david-perdue-republican.jpg */,
+				012F3260235B69C700BDAE6F /* ga-johnny-isakson-republican.jpg */,
+				012F326D235B69C700BDAE6F /* hi-brian-shcatz-democrat.jpg */,
+				012F3279235B69C800BDAE6F /* hi-mazie-hirono-democrat.jpg */,
+				012F327B235B69C800BDAE6F /* ia-charles-grassley-republican.jpg */,
+				012F3281235B69C900BDAE6F /* ia-joni-ernst-republican.jpg */,
+				012F3273235B69C800BDAE6F /* id-james-risch-republican.jpg */,
+				012F329F235B69CA00BDAE6F /* id-mike-crapo-republican.jpg */,
+				012F326E235B69C700BDAE6F /* il-richard-durbin-democrat.jpg */,
+				012F3283235B69C900BDAE6F /* il-tammy-duckworth-democrat.jpg */,
+				012F3270235B69C800BDAE6F /* in-mike-braun-republican.jpg */,
+				012F3269235B69C700BDAE6F /* in-todd-young-republican.jpg */,
+				012F3271235B69C800BDAE6F /* ks-jerry-moran-republican.jpg */,
+				012F324F235B69C600BDAE6F /* ks-pat-roberts-republican.jpg */,
+				012F32A2235B69CB00BDAE6F /* ky-mitch-mcconnell-republican.jpg */,
+				012F32A9235B69CB00BDAE6F /* ky-rand-paul-republican.jpg */,
+				012F328D235B69C900BDAE6F /* la-bill-cassidy-republican.jpg */,
+				012F32AE235B69CB00BDAE6F /* la-john-kennedy-republican.jpg */,
+				012F32A0235B69CA00BDAE6F /* ma-edward-markey-democrat.jpg */,
+				012F3293235B69CA00BDAE6F /* ma-elizabeth-warren-democrat.jpg */,
+				012F3261235B69C700BDAE6F /* md-benjamin-cardin-democrat.jpg */,
+				012F32A3235B69CB00BDAE6F /* md-chris-van-hollen-democrat.jpg */,
+				012F3289235B69C900BDAE6F /* me-angus-king-independent.jpg */,
+				012F3250235B69C600BDAE6F /* me-susan-collins-republican.jpg */,
+				012F3262235B69C700BDAE6F /* mi-debbie-stabenow-democrat.jpg */,
+				012F3263235B69C700BDAE6F /* mi-gary-peters-democrat.jpg */,
+				012F3274235B69C800BDAE6F /* mn-amy-klobuchar-democrat.jpg */,
+				012F328F235B69C900BDAE6F /* mn-tina-smith-democrat.jpg */,
+				012F32B2235B69CB00BDAE6F /* mo-josh-hawley-republican.jpg */,
+				012F3256235B69C600BDAE6F /* mo-roy-blunt-republican.jpg */,
+				012F3287235B69C900BDAE6F /* ms-roger-wicker-republican.jpg */,
+				012F329E235B69CA00BDAE6F /* ms-thad-cochran-republican.jpg */,
+				012F329C235B69CA00BDAE6F /* mt-jon-tester-democrat.jpg */,
+				012F327F235B69C900BDAE6F /* mt-steve-daines-republican.jpg */,
+				012F326B235B69C700BDAE6F /* nc-richard-burr-republican.jpg */,
+				012F32A7235B69CB00BDAE6F /* nc-thom-tillis-republican.jpg */,
+				012F32A4235B69CB00BDAE6F /* nd-john-hoeven-republican.jpg */,
+				012F32A1235B69CA00BDAE6F /* nd-kevin-cramer-republican.jpg */,
+				012F325D235B69C700BDAE6F /* ne-ben-sasse-republican.jpg */,
+				012F3253235B69C600BDAE6F /* ne-deb-fischer-republican.jpg */,
+				012F32AF235B69CB00BDAE6F /* nh-jeanne-shaheen-democrat.jpg */,
+				012F3254235B69C600BDAE6F /* nh-margaret-hassan-democrat.jpg */,
+				012F32B1235B69CB00BDAE6F /* nj-cory-booker-democrat.jpg */,
+				012F3272235B69C800BDAE6F /* nj-robert-menendez-democrat.jpg */,
+				012F32A8235B69CB00BDAE6F /* nm-martin-heinrich-democrat.jpg */,
+				012F3259235B69C600BDAE6F /* nm-tom-udall-democrat.jpg */,
+				012F327D235B69C800BDAE6F /* nv-catherine-masto-democrat.jpg */,
+				012F329A235B69CA00BDAE6F /* nv-jacky-rosen-democrat.jpg */,
+				012F32AC235B69CB00BDAE6F /* ny-charles-schumer-democrat.jpg */,
+				012F326A235B69C700BDAE6F /* ny-kirsten-gillibrand-democrat.jpg */,
+				012F3291235B69CA00BDAE6F /* oh-rob-portman-republican.jpg */,
+				012F3290235B69CA00BDAE6F /* oh-sherrod-brown-democrat.jpg */,
+				012F326F235B69C800BDAE6F /* ok-james-inhofe-republican.jpg */,
+				012F328E235B69C900BDAE6F /* ok-james-lankford-republican.jpg */,
+				012F3266235B69C700BDAE6F /* or-jeff-merkley-democrat.jpg */,
+				012F3285235B69C900BDAE6F /* or-ron-wyden-democrat.jpg */,
+				012F32B3235B69CB00BDAE6F /* pa-patrick-toomey-republican.jpg */,
+				012F3295235B69CA00BDAE6F /* pa-robert-casey-democrat.jpg */,
+				012F3252235B69C600BDAE6F /* ri-jack-reed-democrat.jpg */,
+				012F3294235B69CA00BDAE6F /* ri-sheldon-whitehouse-democrat.jpg */,
+				012F3276235B69C800BDAE6F /* sc-lindsey-graham-republican.jpg */,
+				012F3284235B69C900BDAE6F /* sc-tim-scott-republican.jpg */,
+				012F3292235B69CA00BDAE6F /* sd-john-thune-republican.jpg */,
+				012F325E235B69C700BDAE6F /* sd-mike-rounds-republican.jpg */,
+				012F3258235B69C600BDAE6F /* tn-lamar-alexander-republican.jpg */,
+				012F32AB235B69CB00BDAE6F /* tn-marsha-blackburn-republican.jpg */,
+				012F3280235B69C900BDAE6F /* tx-john-cornyn-republican.jpg */,
+				012F327E235B69C900BDAE6F /* tx-ted-cruz-republican.jpg */,
+				012F326C235B69C700BDAE6F /* ut-mike-lee-republican.jpg */,
+				012F328C235B69C900BDAE6F /* ut-mitt-romney-republican.jpg */,
+				012F32A6235B69CB00BDAE6F /* va-mark-warner-democrat.jpg */,
+				012F329D235B69CA00BDAE6F /* va-tim-kaine-democrat.jpg */,
+				012F3297235B69CA00BDAE6F /* vt-bernard-sanders-independent.jpg */,
+				012F327A235B69C800BDAE6F /* vt-patrick-leahy-democrat.jpg */,
+				012F325B235B69C600BDAE6F /* wa-maria-cantwell-democrat.jpg */,
+				012F3278235B69C800BDAE6F /* wa-patty-murray-democrat.jpg */,
+				012F3275235B69C800BDAE6F /* wi-ron-johnson-republican.jpg */,
+				012F32AD235B69CB00BDAE6F /* wi-tammy-baldwin-democrat.jpg */,
+				012F3286235B69C900BDAE6F /* wv-joe-manchin-democrat.jpg */,
+				012F3264235B69C700BDAE6F /* wv-shelley-capito-republican.jpg */,
+				012F32AA235B69CB00BDAE6F /* wy-john-barrasso-republican.jpg */,
+				012F3267235B69C700BDAE6F /* wy-michael-enzi-republican.jpg */,
+			);
+			path = SenatorImages;
+			sourceTree = "<group>";
+		};
 		014BD2D7235665F300F42BF0 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +381,9 @@
 		014BD2E2235665F300F42BF0 /* Project 2 Testing 2 */ = {
 			isa = PBXGroup;
 			children = (
+				012F324E235B692900BDAE6F /* SenatorImages */,
+				014BD3062356969D00F42BF0 /* Models */,
+				014BD2FF235693D000F42BF0 /* Json */,
 				014BD2E3235665F300F42BF0 /* AppDelegate.swift */,
 				014BD2E5235665F300F42BF0 /* SceneDelegate.swift */,
 				014BD2E7235665F300F42BF0 /* ContentView.swift */,
@@ -71,7 +393,7 @@
 				014BD2EB235665F500F42BF0 /* Preview Content */,
 				014BD2F7235666B600F42BF0 /* PresidentListView.swift */,
 				014BD2F92356673400F42BF0 /* PresidentDetailView.swift */,
-				014BD2FB2356686500F42BF0 /* President.swift */,
+				014BD3022356944F00F42BF0 /* PresidentRow.swift */,
 			);
 			path = "Project 2 Testing 2";
 			sourceTree = "<group>";
@@ -82,6 +404,24 @@
 				014BD2EC235665F500F42BF0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		014BD2FF235693D000F42BF0 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				012F324923580A6E00BDAE6F /* test.json */,
+				012F324A235819F600BDAE6F /* senators.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		014BD3062356969D00F42BF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				014BD307235696B000F42BF0 /* Data.swift */,
+				014BD2FB2356686500F42BF0 /* President.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +482,113 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012F32C9235B69CC00BDAE6F /* mi-gary-peters-democrat.jpg in Resources */,
+				012F3303235B69CC00BDAE6F /* va-tim-kaine-democrat.jpg in Resources */,
+				012F3302235B69CC00BDAE6F /* mt-jon-tester-democrat.jpg in Resources */,
+				012F32C7235B69CC00BDAE6F /* md-benjamin-cardin-democrat.jpg in Resources */,
+				012F32C6235B69CC00BDAE6F /* ga-johnny-isakson-republican.jpg in Resources */,
+				012F32FA235B69CC00BDAE6F /* ri-sheldon-whitehouse-democrat.jpg in Resources */,
+				012F3307235B69CC00BDAE6F /* nd-kevin-cramer-republican.jpg in Resources */,
+				012F32F8235B69CC00BDAE6F /* sd-john-thune-republican.jpg in Resources */,
+				012F32CF235B69CC00BDAE6F /* in-todd-young-republican.jpg in Resources */,
+				012F32F1235B69CC00BDAE6F /* al-richard-shelby-republican.jpg in Resources */,
+				012F32EF235B69CC00BDAE6F /* me-angus-king-independent.jpg in Resources */,
+				012F32FE235B69CC00BDAE6F /* ca-kamala-harris-democrat.jpg in Resources */,
+				012F32E2235B69CC00BDAE6F /* ct-richard-blumenthal-democrat.jpg in Resources */,
+				012F3316235B69CC00BDAE6F /* ca-dianne-feinstein-democrat.jpg in Resources */,
+				012F32CE235B69CC00BDAE6F /* co-cory-gardner-republican.jpg in Resources */,
+				012F330B235B69CC00BDAE6F /* de-thomas-carper-democrat.jpg in Resources */,
+				012F3312235B69CC00BDAE6F /* ny-charles-schumer-democrat.jpg in Resources */,
+				012F324D235B68AE00BDAE6F /* Data.swift in Resources */,
+				012F32FC235B69CC00BDAE6F /* al-gordon-jones-democrat.jpg in Resources */,
+				012F32FF235B69CC00BDAE6F /* ar-tom-cotton-republican.jpg in Resources */,
+				012F32D9235B69CC00BDAE6F /* id-james-risch-republican.jpg in Resources */,
+				012F32DE235B69CC00BDAE6F /* wa-patty-murray-democrat.jpg in Resources */,
+				012F32EE235B69CC00BDAE6F /* download_senators.rb in Resources */,
+				012F324C235ACE4800BDAE6F /* senators.json in Resources */,
+				012F32B7235B69CC00BDAE6F /* ga-david-perdue-republican.jpg in Resources */,
+				012F32CC235B69CC00BDAE6F /* or-jeff-merkley-democrat.jpg in Resources */,
+				012F32BF235B69CC00BDAE6F /* nm-tom-udall-democrat.jpg in Resources */,
+				012F32E5235B69CC00BDAE6F /* mt-steve-daines-republican.jpg in Resources */,
+				012F32D4235B69CC00BDAE6F /* il-richard-durbin-democrat.jpg in Resources */,
+				012F324B2358BD1E00BDAE6F /* test.json in Resources */,
+				012F32EC235B69CC00BDAE6F /* wv-joe-manchin-democrat.jpg in Resources */,
+				012F32BB235B69CC00BDAE6F /* co-michael-bennet-democrat.jpg in Resources */,
 				014BD2F0235665F500F42BF0 /* LaunchScreen.storyboard in Resources */,
+				012F32E4235B69CC00BDAE6F /* tx-ted-cruz-republican.jpg in Resources */,
+				012F32C8235B69CC00BDAE6F /* mi-debbie-stabenow-democrat.jpg in Resources */,
+				012F32BA235B69CC00BDAE6F /* nh-margaret-hassan-democrat.jpg in Resources */,
+				012F32EB235B69CC00BDAE6F /* or-ron-wyden-democrat.jpg in Resources */,
+				012F32D8235B69CC00BDAE6F /* nj-robert-menendez-democrat.jpg in Resources */,
+				012F3314235B69CC00BDAE6F /* la-john-kennedy-republican.jpg in Resources */,
+				012F32F3235B69CC00BDAE6F /* la-bill-cassidy-republican.jpg in Resources */,
+				012F32F4235B69CC00BDAE6F /* ok-james-lankford-republican.jpg in Resources */,
+				012F32DF235B69CC00BDAE6F /* hi-mazie-hirono-democrat.jpg in Resources */,
+				012F330F235B69CC00BDAE6F /* ky-rand-paul-republican.jpg in Resources */,
+				012F32B6235B69CC00BDAE6F /* me-susan-collins-republican.jpg in Resources */,
+				012F32E9235B69CC00BDAE6F /* il-tammy-duckworth-democrat.jpg in Resources */,
+				012F32EA235B69CC00BDAE6F /* sc-tim-scott-republican.jpg in Resources */,
+				012F32C4235B69CC00BDAE6F /* sd-mike-rounds-republican.jpg in Resources */,
+				012F32E0235B69CC00BDAE6F /* vt-patrick-leahy-democrat.jpg in Resources */,
+				012F32F5235B69CC00BDAE6F /* mn-tina-smith-democrat.jpg in Resources */,
+				012F32DC235B69CC00BDAE6F /* sc-lindsey-graham-republican.jpg in Resources */,
+				012F330C235B69CC00BDAE6F /* va-mark-warner-democrat.jpg in Resources */,
+				012F32C2235B69CC00BDAE6F /* az-martha-mcsally-republican.jpg in Resources */,
+				012F32D6235B69CC00BDAE6F /* in-mike-braun-republican.jpg in Resources */,
+				012F3306235B69CC00BDAE6F /* ma-edward-markey-democrat.jpg in Resources */,
+				012F330D235B69CC00BDAE6F /* nc-thom-tillis-republican.jpg in Resources */,
+				012F32BC235B69CC00BDAE6F /* mo-roy-blunt-republican.jpg in Resources */,
+				012F3305235B69CC00BDAE6F /* id-mike-crapo-republican.jpg in Resources */,
+				012F32B9235B69CC00BDAE6F /* ne-deb-fischer-republican.jpg in Resources */,
+				012F32F0235B69CC00BDAE6F /* de-christopher-coons-democrat.jpg in Resources */,
+				012F330A235B69CC00BDAE6F /* nd-john-hoeven-republican.jpg in Resources */,
+				012F32CD235B69CC00BDAE6F /* wy-michael-enzi-republican.jpg in Resources */,
+				012F32F9235B69CC00BDAE6F /* ma-elizabeth-warren-democrat.jpg in Resources */,
+				012F32B5235B69CC00BDAE6F /* ks-pat-roberts-republican.jpg in Resources */,
+				012F32D1235B69CC00BDAE6F /* nc-richard-burr-republican.jpg in Resources */,
+				012F331A235B69CC00BDAE6F /* fl-marco-rubio-republican.jpg in Resources */,
+				012F32BD235B69CC00BDAE6F /* az-kyrsten-sinema-democrat.jpg in Resources */,
+				012F3310235B69CC00BDAE6F /* wy-john-barrasso-republican.jpg in Resources */,
+				012F32DB235B69CC00BDAE6F /* wi-ron-johnson-republican.jpg in Resources */,
+				012F32D0235B69CC00BDAE6F /* ny-kirsten-gillibrand-democrat.jpg in Resources */,
+				012F32E6235B69CC00BDAE6F /* tx-john-cornyn-republican.jpg in Resources */,
+				012F32F2235B69CC00BDAE6F /* ut-mitt-romney-republican.jpg in Resources */,
+				012F3311235B69CC00BDAE6F /* tn-marsha-blackburn-republican.jpg in Resources */,
+				012F32D2235B69CC00BDAE6F /* ut-mike-lee-republican.jpg in Resources */,
+				012F32E1235B69CC00BDAE6F /* ia-charles-grassley-republican.jpg in Resources */,
+				012F32E3235B69CC00BDAE6F /* nv-catherine-masto-democrat.jpg in Resources */,
+				012F32BE235B69CC00BDAE6F /* tn-lamar-alexander-republican.jpg in Resources */,
+				012F32D5235B69CC00BDAE6F /* ok-james-inhofe-republican.jpg in Resources */,
+				012F3309235B69CC00BDAE6F /* md-chris-van-hollen-democrat.jpg in Resources */,
+				012F32C3235B69CC00BDAE6F /* ne-ben-sasse-republican.jpg in Resources */,
+				012F3315235B69CC00BDAE6F /* nh-jeanne-shaheen-democrat.jpg in Resources */,
+				012F32F6235B69CC00BDAE6F /* oh-sherrod-brown-democrat.jpg in Resources */,
+				012F32CA235B69CC00BDAE6F /* wv-shelley-capito-republican.jpg in Resources */,
+				012F32CB235B69CC00BDAE6F /* fl-rick-scott-republican.jpg in Resources */,
+				012F32FB235B69CC00BDAE6F /* pa-robert-casey-democrat.jpg in Resources */,
+				012F32E8235B69CC00BDAE6F /* ct-christopher-murphy-democrat.jpg in Resources */,
+				012F32C0235B69CC00BDAE6F /* ar-john-boozman-republican.jpg in Resources */,
+				012F3308235B69CC00BDAE6F /* ky-mitch-mcconnell-republican.jpg in Resources */,
+				012F32DA235B69CC00BDAE6F /* mn-amy-klobuchar-democrat.jpg in Resources */,
+				012F32DD235B69CC00BDAE6F /* ak-lisa-murkowski-republican.jpg in Resources */,
+				012F3300235B69CC00BDAE6F /* nv-jacky-rosen-democrat.jpg in Resources */,
+				012F32C1235B69CC00BDAE6F /* wa-maria-cantwell-democrat.jpg in Resources */,
+				012F3318235B69CC00BDAE6F /* mo-josh-hawley-republican.jpg in Resources */,
+				012F32FD235B69CC00BDAE6F /* vt-bernard-sanders-independent.jpg in Resources */,
+				012F330E235B69CC00BDAE6F /* nm-martin-heinrich-democrat.jpg in Resources */,
+				012F32D3235B69CC00BDAE6F /* hi-brian-shcatz-democrat.jpg in Resources */,
 				014BD2ED235665F500F42BF0 /* Preview Assets.xcassets in Resources */,
+				012F3304235B69CC00BDAE6F /* ms-thad-cochran-republican.jpg in Resources */,
 				014BD2EA235665F500F42BF0 /* Assets.xcassets in Resources */,
+				012F3301235B69CC00BDAE6F /* ak-daniel-sullivan-republican.jpg in Resources */,
+				012F32D7235B69CC00BDAE6F /* ks-jerry-moran-republican.jpg in Resources */,
+				012F3317235B69CC00BDAE6F /* nj-cory-booker-democrat.jpg in Resources */,
+				012F32B8235B69CC00BDAE6F /* ri-jack-reed-democrat.jpg in Resources */,
+				012F32ED235B69CC00BDAE6F /* ms-roger-wicker-republican.jpg in Resources */,
+				012F32F7235B69CC00BDAE6F /* oh-rob-portman-republican.jpg in Resources */,
+				012F3313235B69CC00BDAE6F /* wi-tammy-baldwin-democrat.jpg in Resources */,
+				012F3319235B69CC00BDAE6F /* pa-patrick-toomey-republican.jpg in Resources */,
+				012F32E7235B69CC00BDAE6F /* ia-joni-ernst-republican.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,9 +602,11 @@
 				014BD2FC2356686500F42BF0 /* President.swift in Sources */,
 				014BD2E4235665F300F42BF0 /* AppDelegate.swift in Sources */,
 				014BD2FA2356673400F42BF0 /* PresidentDetailView.swift in Sources */,
+				014BD3032356944F00F42BF0 /* PresidentRow.swift in Sources */,
 				014BD2E6235665F300F42BF0 /* SceneDelegate.swift in Sources */,
 				014BD2E8235665F300F42BF0 /* ContentView.swift in Sources */,
 				014BD2F8235666B600F42BF0 /* PresidentListView.swift in Sources */,
+				014BD308235696B000F42BF0 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
