@@ -10,19 +10,30 @@ import SwiftUI
 
 struct PresidentDetailView: View {
     var president: President
+    @State var showWikipediaModal = false
     
     var body: some View {
-        VStack {
-            Text(president.name)
-                .font(.largeTitle)
-            president.image
-            Text(president.party.uppercased())
-                .font(.headline)
-                .foregroundColor(president.partyColor())
-            
-            Text(president.biography)
-            .padding()
-            
+        NavigationView {
+            VStack {
+                //Text(president.name)
+                    //.font(.largeTitle)
+                president.image
+                Text(president.party.uppercased())
+                    .font(.headline)
+                    .foregroundColor(president.partyColor())
+                
+                Text(president.biography)
+                .padding()
+                
+            }
+            .navigationBarTitle(Text(president.name))
+            .navigationBarItems(trailing: Button(action: {self.showWikipediaModal = true}){
+                Text("Wikipedia")
+            })
+        
+        }
+        .sheet(isPresented: self.$showWikipediaModal) {
+            RedSampleView()
         }
         
     }

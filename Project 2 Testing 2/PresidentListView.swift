@@ -17,6 +17,7 @@ struct PresidentListView: View {
                     PresidentRow(president: president)
                 }
             .navigationBarTitle("Presidents")
+                
             }
         }
     }
