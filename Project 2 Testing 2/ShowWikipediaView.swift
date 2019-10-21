@@ -10,30 +10,35 @@ import SwiftUI
 import WebKit
 import Foundation
 
-//struct ShowWikipediaView: View {
+private var websiteUrl = String()
+
 class ShowWikipediaView: UIViewController{
     var webview: WKWebView!
-    //var president: President
-    let urlString = "https://wikipedia.org"
-  
+    var urlString: String = "https://wikipedia.org"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let webUrl = websiteUrl as? String{
+            urlString = webUrl
+        }
         webview = WKWebView()
-        let urlTest = URL(string: "https://wikipedia.org")
-        print(urlTest)
         if let url = URL(string: urlString){
             print(url)
             webview.load(URLRequest(url: url))
             view = webview
         }
-        
-        
     }
+    
 }
 
 struct WikipediaIntegratedController:UIViewControllerRepresentable{
+    var president: President
+    
     func makeUIViewController(context: UIViewControllerRepresentableContext<WikipediaIntegratedController>) -> ShowWikipediaView {
-        ShowWikipediaView()
+        if let url = president.wikidata{
+            websiteUrl = url
+        }
+        return ShowWikipediaView()
     }
     
     func updateUIViewController(_ uiViewController: ShowWikipediaView, context: UIViewControllerRepresentableContext<WikipediaIntegratedController>) {
@@ -42,13 +47,17 @@ struct WikipediaIntegratedController:UIViewControllerRepresentable{
 }
 
 struct RedSampleView: View{
+    var president: President
     var body: some View {
-            WikipediaIntegratedController()
+        VStack{
+            WikipediaIntegratedController(president: president)
+        }
+            
     }
 }
 
 struct RedSamplePreview: PreviewProvider {
     static var previews: some View {
-            RedSampleView()
+        RedSampleView(president: presidentData[0])
     }
 }

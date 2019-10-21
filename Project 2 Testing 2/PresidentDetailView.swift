@@ -33,7 +33,7 @@ struct PresidentDetailView: View {
         
         }
         .sheet(isPresented: self.$showWikipediaModal) {
-            RedSampleView()
+            RedSampleView(president: self.president)
         }
         
     }
