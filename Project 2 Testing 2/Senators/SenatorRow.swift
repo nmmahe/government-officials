@@ -1,8 +1,8 @@
 //
-//  SenatorRow.swift
+//  PresidentRow.swift
 //  Project 2 Testing 2
 //
-//  Created by Nick Mahe on 10/21/19.
+//  Created by Nick Mahe on 10/15/19.
 //  Copyright © 2019 Nick Mahe. All rights reserved.
 //
 
@@ -16,8 +16,10 @@ struct SenatorRow: View {
             senator.image
             .resizable()
             .frame(width: 50, height: 50)
-            Text(senator.full_name)
-        }  
+            
+            Text(senator.name)
+                    
+        }
     }
 }
 

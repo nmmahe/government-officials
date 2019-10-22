@@ -42,33 +42,7 @@ struct Governor: Hashable, Codable, Identifiable{
         }
         return Color.black
     }
-    /*func getDate(death death: Bool, office enterOffice: Bool) -> String{
-        if death == true{
-            if let date = self.death_year{
-                return String(date)
-            }
-            return "Present"
-            }
-        else {
-            if enterOffice == true{
-                let sub = self.took_office.prefix(4)
-                let response = String(sub)
-                return response
-            }
-            else{
-                if let date = self.left_office{
-                    let sub = date.prefix(4)
-                    let response = String(sub)
-                    return response
-                }
-                return "Present"
-            }
-        }
-    }*/
-    
 }
-
-
 extension Governor {
     var image: Image {
         ImageStore.shared.image(name: generateImageName())

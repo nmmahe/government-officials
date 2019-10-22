@@ -1,8 +1,8 @@
 //
-//  SenatorDetailView.swift
+//  PresidentDetailView.swift
 //  Project 2 Testing 2
 //
-//  Created by Nick Mahe on 10/21/19.
+//  Created by Nick Mahe on 10/15/19.
 //  Copyright © 2019 Nick Mahe. All rights reserved.
 //
 
@@ -10,50 +10,34 @@ import SwiftUI
 
 struct SenatorDetailView: View {
     var senator: Senator
-    
     @State var showWikipediaModal = false
     
     var body: some View {
-        
         NavigationView {
             ScrollView{
                 VStack {
-                    //Text(president.name)
-                        //.font(.largeTitle)
                     senator.image
-                        .resizable()
                         .padding()
-                        .frame(width:300, height:350)
                         .shadow(radius: 10)
-                    
-                    
-                    HStack{
-                    Text("Lived: \(String(senator.birth_year))-\(senator.getDate(death: true, office: false))")
-                        .padding()
-                        
+
+                    Text("Entered Office: \(senator.entered_office)")
                     Spacer()
-                    Text("Served: \(senator.getDate(death: false, office: true))-\(senator.getDate(death: false, office: false))")
-                        .padding()
-                    }
-                    .padding()
-                    
                     Text(senator.party.uppercased())
                         .font(.headline)
                         .foregroundColor(senator.partyColor())
                     
-                    Text(senator.bio)
+                    Text(senator.biography)
                     .padding()
                     
                 }
-            }
-            .navigationBarTitle(Text(senator.full_name))
+            } .navigationBarTitle(Text(senator.name))
             .navigationBarItems(trailing: Button(action: {self.showWikipediaModal = true}){
                 Text("Wikipedia")
             })
         
         }
         .sheet(isPresented: self.$showWikipediaModal) {
-            SenatorWikiView(senator: self.senator)
+            RedSampleView(senator: self.senator)
         }
         
     }

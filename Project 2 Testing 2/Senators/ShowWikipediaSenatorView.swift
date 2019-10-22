@@ -1,8 +1,8 @@
 //
-//  ShowWikipediaSenatorView.swift
+//  ShowWikipediaView.swift
 //  Project 2 Testing 2
 //
-//  Created by Nick Mahe on 10/21/19.
+//  Created by Nick Mahe on 10/19/19.
 //  Copyright © 2019 Nick Mahe. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ import Foundation
 
 private var websiteUrl = String()
 
-class ShowWikipediaSenatorView: UIViewController{
+class ShowWikipediaView: UIViewController{
     var webview: WKWebView!
     var urlString: String = "https://wikipedia.org"
     
@@ -31,33 +31,33 @@ class ShowWikipediaSenatorView: UIViewController{
     
 }
 
-struct SenatorWikipediaIntegratedController:UIViewControllerRepresentable{
+struct WikipediaIntegratedController:UIViewControllerRepresentable{
     var senator: Senator
     
-    func makeUIViewController(context: UIViewControllerRepresentableContext<SenatorWikipediaIntegratedController>) -> ShowWikipediaSenatorView {
+    func makeUIViewController(context: UIViewControllerRepresentableContext<WikipediaIntegratedController>) -> ShowWikipediaView {
         if let url = senator.wikidata{
             websiteUrl = url
         }
-        return ShowWikipediaSenatorView()
+        return ShowWikipediaView()
     }
     
-    func updateUIViewController(_ uiViewController: ShowWikipediaSenatorView, context: UIViewControllerRepresentableContext<SenatorWikipediaIntegratedController>) {
+    func updateUIViewController(_ uiViewController: ShowWikipediaView, context: UIViewControllerRepresentableContext<WikipediaIntegratedController>) {
         
     }
 }
 
-struct SenatorWikiView: View{
+struct RedSampleView: View{
     var senator: Senator
     var body: some View {
         VStack{
-            SenatorWikipediaIntegratedController(senator: senator)
+            WikipediaIntegratedController(senator: senator)
         }
             
     }
 }
 
-struct SenatorWikiPreview: PreviewProvider {
+struct RedSamplePreview: PreviewProvider {
     static var previews: some View {
-        SenatorWikiView(senator: senatorData[0])
+        RedSampleView(senator: senatorData[0])
     }
 }

@@ -10,8 +10,8 @@ import UIKit
 import SwiftUI
 import CoreLocation
 
-let presidentData: [President] = load("senators.json")
-let senatorData: [Senator] = load("presidents.json")
+let presidentData: [President] = load("presidents.json")
+let senatorData: [Senator] = load("senators.json")
 let governorData: [Governor] = load("governors.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {

@@ -1,11 +1,10 @@
 //
-//  PresidentListView.swift
+//  SenatorListView.swift
 //  Project 2 Testing 2
 //
-//  Created by Nick Mahe on 10/15/19.
+//  Created by Nick Mahe on 10/21/19.
 //  Copyright © 2019 Nick Mahe. All rights reserved.
 //
-
 import SwiftUI
 
 struct PresidentListView: View {

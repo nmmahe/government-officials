@@ -1,8 +1,8 @@
 //
-//  ShowWikipediaView.swift
+//  ShowWikipediaSenatorView.swift
 //  Project 2 Testing 2
 //
-//  Created by Nick Mahe on 10/19/19.
+//  Created by Nick Mahe on 10/21/19.
 //  Copyright © 2019 Nick Mahe. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ import Foundation
 
 private var websiteUrl = String()
 
-class ShowWikipediaView: UIViewController{
+class ShowWikipediaPresidentView: UIViewController{
     var webview: WKWebView!
     var urlString: String = "https://wikipedia.org"
     
@@ -31,33 +31,33 @@ class ShowWikipediaView: UIViewController{
     
 }
 
-struct WikipediaIntegratedController:UIViewControllerRepresentable{
+struct PresidentWikipediaIntegratedController:UIViewControllerRepresentable{
     var president: President
     
-    func makeUIViewController(context: UIViewControllerRepresentableContext<WikipediaIntegratedController>) -> ShowWikipediaView {
+    func makeUIViewController(context: UIViewControllerRepresentableContext<PresidentWikipediaIntegratedController>) -> ShowWikipediaPresidentView {
         if let url = president.wikidata{
             websiteUrl = url
         }
-        return ShowWikipediaView()
+        return ShowWikipediaPresidentView()
     }
     
-    func updateUIViewController(_ uiViewController: ShowWikipediaView, context: UIViewControllerRepresentableContext<WikipediaIntegratedController>) {
+    func updateUIViewController(_ uiViewController: ShowWikipediaPresidentView, context: UIViewControllerRepresentableContext<PresidentWikipediaIntegratedController>) {
         
     }
 }
 
-struct RedSampleView: View{
+struct PresidentWikiView: View{
     var president: President
     var body: some View {
         VStack{
-            WikipediaIntegratedController(president: president)
+            PresidentWikipediaIntegratedController(president: president)
         }
             
     }
 }
 
-struct RedSamplePreview: PreviewProvider {
+struct PresidentWikiPreview: PreviewProvider {
     static var previews: some View {
-        RedSampleView(president: presidentData[0])
+        PresidentWikiView(president: presidentData[0])
     }
 }
