@@ -113,6 +113,113 @@
 		012F331A235B69CC00BDAE6F /* fl-marco-rubio-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F32B4235B69CC00BDAE6F /* fl-marco-rubio-republican.jpg */; };
 		012F331C235BC62A00BDAE6F /* ShowWikipediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F331B235BC62A00BDAE6F /* ShowWikipediaView.swift */; };
 		012F331E235D1B6200BDAE6F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F331D235D1B6200BDAE6F /* WebView.swift */; };
+		012F3324235E10DF00BDAE6F /* Senator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F3323235E10DF00BDAE6F /* Senator.swift */; };
+		012F3326235E110500BDAE6F /* SenatorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F3325235E110500BDAE6F /* SenatorListView.swift */; };
+		012F3328235E111500BDAE6F /* SenatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F3327235E111500BDAE6F /* SenatorRow.swift */; };
+		012F332A235E112400BDAE6F /* SenatorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F3329235E112400BDAE6F /* SenatorDetailView.swift */; };
+		012F332C235E207D00BDAE6F /* presidents.json in Resources */ = {isa = PBXBuildFile; fileRef = 012F332B235E207D00BDAE6F /* presidents.json */; };
+		012F335B235E21D000BDAE6F /* US_President_L_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F332E235E21CE00BDAE6F /* US_President_L_7.jpg */; };
+		012F335C235E21D000BDAE6F /* US_President_L_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F332F235E21CE00BDAE6F /* US_President_L_21.jpg */; };
+		012F335D235E21D000BDAE6F /* US_President_L_25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3330235E21CE00BDAE6F /* US_President_L_25.jpg */; };
+		012F335E235E21D000BDAE6F /* US_President_L_45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3331235E21CE00BDAE6F /* US_President_L_45.jpg */; };
+		012F335F235E21D000BDAE6F /* US_President_L_26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3332235E21CE00BDAE6F /* US_President_L_26.jpg */; };
+		012F3360235E21D000BDAE6F /* US_President_L_23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3333235E21CE00BDAE6F /* US_President_L_23.jpg */; };
+		012F3361235E21D000BDAE6F /* US_President_L_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3334235E21CE00BDAE6F /* US_President_L_13.jpg */; };
+		012F3362235E21D000BDAE6F /* US_President_L_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3335235E21CE00BDAE6F /* US_President_L_11.jpg */; };
+		012F3363235E21D000BDAE6F /* US_President_L_24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3336235E21CE00BDAE6F /* US_President_L_24.jpg */; };
+		012F3364235E21D000BDAE6F /* US_President_L_27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3337235E21CE00BDAE6F /* US_President_L_27.jpg */; };
+		012F3365235E21D000BDAE6F /* US_President_L_41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3338235E21CE00BDAE6F /* US_President_L_41.jpg */; };
+		012F3366235E21D000BDAE6F /* US_President_L_22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3339235E21CE00BDAE6F /* US_President_L_22.jpg */; };
+		012F3367235E21D000BDAE6F /* US_President_L_38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F333A235E21CE00BDAE6F /* US_President_L_38.jpg */; };
+		012F3368235E21D000BDAE6F /* US_President_L_44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F333B235E21CE00BDAE6F /* US_President_L_44.jpg */; };
+		012F3369235E21D000BDAE6F /* US_President_L_36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F333C235E21CE00BDAE6F /* US_President_L_36.jpg */; };
+		012F336A235E21D000BDAE6F /* US_President_L_29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F333D235E21CE00BDAE6F /* US_President_L_29.jpg */; };
+		012F336B235E21D000BDAE6F /* US_President_L_39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F333E235E21CE00BDAE6F /* US_President_L_39.jpg */; };
+		012F336C235E21D000BDAE6F /* US_President_L_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F333F235E21CF00BDAE6F /* US_President_L_4.jpg */; };
+		012F336D235E21D000BDAE6F /* US_President_L_32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3340235E21CF00BDAE6F /* US_President_L_32.jpg */; };
+		012F336E235E21D000BDAE6F /* US_President_L_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3341235E21CF00BDAE6F /* US_President_L_15.jpg */; };
+		012F336F235E21D000BDAE6F /* US_President_L_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3342235E21CF00BDAE6F /* US_President_L_8.jpg */; };
+		012F3370235E21D000BDAE6F /* US_President_L_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3343235E21CF00BDAE6F /* US_President_L_5.jpg */; };
+		012F3371235E21D000BDAE6F /* US_President_L_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3344235E21CF00BDAE6F /* US_President_L_2.jpg */; };
+		012F3372235E21D000BDAE6F /* US_President_L_31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3345235E21CF00BDAE6F /* US_President_L_31.jpg */; };
+		012F3373235E21D000BDAE6F /* US_President_L_19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3346235E21CF00BDAE6F /* US_President_L_19.jpg */; };
+		012F3374235E21D000BDAE6F /* US_President_L_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3347235E21CF00BDAE6F /* US_President_L_12.jpg */; };
+		012F3375235E21D000BDAE6F /* US_President_L_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3348235E21CF00BDAE6F /* US_President_L_10.jpg */; };
+		012F3376235E21D000BDAE6F /* US_President_L_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3349235E21CF00BDAE6F /* US_President_L_14.jpg */; };
+		012F3377235E21D000BDAE6F /* US_President_L_34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F334A235E21CF00BDAE6F /* US_President_L_34.jpg */; };
+		012F3378235E21D000BDAE6F /* US_President_L_37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F334B235E21CF00BDAE6F /* US_President_L_37.jpg */; };
+		012F3379235E21D000BDAE6F /* US_President_L_20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F334C235E21CF00BDAE6F /* US_President_L_20.jpg */; };
+		012F337A235E21D000BDAE6F /* US_President_L_40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F334D235E21CF00BDAE6F /* US_President_L_40.jpg */; };
+		012F337B235E21D000BDAE6F /* US_President_L_18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F334E235E21CF00BDAE6F /* US_President_L_18.jpg */; };
+		012F337C235E21D000BDAE6F /* US_President_L_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F334F235E21CF00BDAE6F /* US_President_L_1.jpg */; };
+		012F337D235E21D000BDAE6F /* US_President_L_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3350235E21CF00BDAE6F /* US_President_L_17.jpg */; };
+		012F337E235E21D000BDAE6F /* US_President_L_35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3351235E21CF00BDAE6F /* US_President_L_35.jpg */; };
+		012F337F235E21D000BDAE6F /* US_President_L_43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3352235E21D000BDAE6F /* US_President_L_43.jpg */; };
+		012F3380235E21D000BDAE6F /* US_President_L_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3353235E21D000BDAE6F /* US_President_L_16.jpg */; };
+		012F3381235E21D000BDAE6F /* US_President_L_33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3354235E21D000BDAE6F /* US_President_L_33.jpg */; };
+		012F3382235E21D000BDAE6F /* US_President_L_28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3355235E21D000BDAE6F /* US_President_L_28.jpg */; };
+		012F3383235E21D000BDAE6F /* US_President_L_30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3356235E21D000BDAE6F /* US_President_L_30.jpg */; };
+		012F3384235E21D000BDAE6F /* US_President_L_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3357235E21D000BDAE6F /* US_President_L_9.jpg */; };
+		012F3385235E21D000BDAE6F /* US_President_L_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3358235E21D000BDAE6F /* US_President_L_6.jpg */; };
+		012F3386235E21D000BDAE6F /* US_President_L_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3359235E21D000BDAE6F /* US_President_L_3.jpg */; };
+		012F3387235E21D000BDAE6F /* US_President_L_42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F335A235E21D000BDAE6F /* US_President_L_42.jpg */; };
+		012F3389235E73A200BDAE6F /* ShowWikipediaSenatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F3388235E73A200BDAE6F /* ShowWikipediaSenatorView.swift */; };
+		012F338C235E9EE700BDAE6F /* governors.json in Resources */ = {isa = PBXBuildFile; fileRef = 012F338B235E9EE700BDAE6F /* governors.json */; };
+		012F338E235E9F7E00BDAE6F /* Governor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F338D235E9F7E00BDAE6F /* Governor.swift */; };
+		012F33C2235E9FF100BDAE6F /* thumb_LA_gov_John_Edwards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3390235E9FEE00BDAE6F /* thumb_LA_gov_John_Edwards.jpg */; };
+		012F33C3235E9FF100BDAE6F /* thumb_RI_gov_Gina_Raimondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3391235E9FEE00BDAE6F /* thumb_RI_gov_Gina_Raimondo.jpg */; };
+		012F33C4235E9FF100BDAE6F /* thumb_IA_gov_Kimberly_Reynolds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3392235E9FEE00BDAE6F /* thumb_IA_gov_Kimberly_Reynolds.jpg */; };
+		012F33C5235E9FF100BDAE6F /* thumb_AZ_gov_Douglas_Ducey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3393235E9FEE00BDAE6F /* thumb_AZ_gov_Douglas_Ducey.jpg */; };
+		012F33C6235E9FF100BDAE6F /* thumb_VT_gov_Philip_Scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3394235E9FEE00BDAE6F /* thumb_VT_gov_Philip_Scott.jpg */; };
+		012F33C7235E9FF100BDAE6F /* thumb_AR_gov_Asa_Hutchinson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3395235E9FEE00BDAE6F /* thumb_AR_gov_Asa_Hutchinson.jpg */; };
+		012F33C8235E9FF100BDAE6F /* thumb_CO_gov_Jared_Polis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3396235E9FEE00BDAE6F /* thumb_CO_gov_Jared_Polis.jpg */; };
+		012F33C9235E9FF100BDAE6F /* thumb_NV_gov_Steve_Sisolak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3397235E9FEE00BDAE6F /* thumb_NV_gov_Steve_Sisolak.jpg */; };
+		012F33CA235E9FF100BDAE6F /* thumb_WA_gov_Jay_Inslee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3398235E9FEE00BDAE6F /* thumb_WA_gov_Jay_Inslee.jpg */; };
+		012F33CB235E9FF100BDAE6F /* thumb_NC_gov_Roy_Cooper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F3399235E9FEE00BDAE6F /* thumb_NC_gov_Roy_Cooper.jpg */; };
+		012F33CC235E9FF100BDAE6F /* thumb_SD_gov_Kristi_Noem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F339A235E9FEE00BDAE6F /* thumb_SD_gov_Kristi_Noem.jpg */; };
+		012F33CD235E9FF100BDAE6F /* thumb_KS_gov_Laura_Kelly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F339B235E9FEE00BDAE6F /* thumb_KS_gov_Laura_Kelly.jpg */; };
+		012F33CE235E9FF100BDAE6F /* thumb_SC_gov_Henry_McMaster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F339C235E9FEE00BDAE6F /* thumb_SC_gov_Henry_McMaster.jpg */; };
+		012F33CF235E9FF100BDAE6F /* thumb_MN_gov_Tim_Walz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F339D235E9FEE00BDAE6F /* thumb_MN_gov_Tim_Walz.jpg */; };
+		012F33D0235E9FF100BDAE6F /* thumb_MS_gov_Dewey_Bryant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F339E235E9FEE00BDAE6F /* thumb_MS_gov_Dewey_Bryant.jpg */; };
+		012F33D1235E9FF100BDAE6F /* thumb_MA_gov_Charles_Baker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F339F235E9FEE00BDAE6F /* thumb_MA_gov_Charles_Baker.jpg */; };
+		012F33D2235E9FF100BDAE6F /* thumb_ME_gov_Janet_Mills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A0235E9FEE00BDAE6F /* thumb_ME_gov_Janet_Mills.jpg */; };
+		012F33D3235E9FF100BDAE6F /* thumb_OK_gov_Kevin_Stitt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A1235E9FEE00BDAE6F /* thumb_OK_gov_Kevin_Stitt.jpg */; };
+		012F33D4235E9FF100BDAE6F /* thumb_PA_gov_Thomas_Wolf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A2235E9FEE00BDAE6F /* thumb_PA_gov_Thomas_Wolf.jpg */; };
+		012F33D5235E9FF100BDAE6F /* thumb_VA_gov_Ralph_Northam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A3235E9FEF00BDAE6F /* thumb_VA_gov_Ralph_Northam.jpg */; };
+		012F33D6235E9FF100BDAE6F /* thumb_OR_gov_Katherine_Brown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A4235E9FEF00BDAE6F /* thumb_OR_gov_Katherine_Brown.jpg */; };
+		012F33D7235E9FF100BDAE6F /* thumb_OH_gov_Michael_DeWine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A5235E9FEF00BDAE6F /* thumb_OH_gov_Michael_DeWine.jpg */; };
+		012F33D8235E9FF100BDAE6F /* thumb_NJ_gov_Philip_Murphy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A6235E9FEF00BDAE6F /* thumb_NJ_gov_Philip_Murphy.jpg */; };
+		012F33D9235E9FF100BDAE6F /* thumb_TX_gov_Gregory_Abbott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A7235E9FEF00BDAE6F /* thumb_TX_gov_Gregory_Abbott.jpg */; };
+		012F33DA235E9FF100BDAE6F /* thumb_MD_gov_Lawrence_Hogan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A8235E9FEF00BDAE6F /* thumb_MD_gov_Lawrence_Hogan.jpg */; };
+		012F33DB235E9FF100BDAE6F /* thumb_WV_gov_James_Justice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33A9235E9FEF00BDAE6F /* thumb_WV_gov_James_Justice.jpg */; };
+		012F33DC235E9FF100BDAE6F /* thumb_IN_gov_Eric_Holcomb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33AA235E9FEF00BDAE6F /* thumb_IN_gov_Eric_Holcomb.jpg */; };
+		012F33DD235E9FF100BDAE6F /* thumb_GA_gov_Nathan_Deal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33AB235E9FEF00BDAE6F /* thumb_GA_gov_Nathan_Deal.jpg */; };
+		012F33DE235E9FF100BDAE6F /* thumb_MT_gov_Stephen_Bullock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33AC235E9FEF00BDAE6F /* thumb_MT_gov_Stephen_Bullock.jpg */; };
+		012F33DF235E9FF100BDAE6F /* thumb_MI_gov_Gretchen_Whitmer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33AD235E9FEF00BDAE6F /* thumb_MI_gov_Gretchen_Whitmer.jpg */; };
+		012F33E0235E9FF100BDAE6F /* thumb_UT_gov_Gary_Herbert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33AE235E9FEF00BDAE6F /* thumb_UT_gov_Gary_Herbert.jpg */; };
+		012F33E1235E9FF100BDAE6F /* thumb_AL_gov_Kay_Ivey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33AF235E9FEF00BDAE6F /* thumb_AL_gov_Kay_Ivey.jpg */; };
+		012F33E2235E9FF100BDAE6F /* thumb_AK_gov_Mike_Dunleavy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B0235E9FEF00BDAE6F /* thumb_AK_gov_Mike_Dunleavy.jpg */; };
+		012F33E3235E9FF100BDAE6F /* thumb_ND_gov_Douglas_Burgum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B1235E9FF000BDAE6F /* thumb_ND_gov_Douglas_Burgum.jpg */; };
+		012F33E4235E9FF100BDAE6F /* thumb_CT_gov_Edward_Lamont.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B2235E9FF000BDAE6F /* thumb_CT_gov_Edward_Lamont.jpg */; };
+		012F33E5235E9FF100BDAE6F /* thumb_NY_gov_Andrew_Cuomo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B3235E9FF000BDAE6F /* thumb_NY_gov_Andrew_Cuomo.jpg */; };
+		012F33E6235E9FF100BDAE6F /* thumb_DE_gov_John_Carney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B4235E9FF000BDAE6F /* thumb_DE_gov_John_Carney.jpg */; };
+		012F33E7235E9FF100BDAE6F /* thumb_HI_gov_David_Ige.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B5235E9FF000BDAE6F /* thumb_HI_gov_David_Ige.jpg */; };
+		012F33E8235E9FF100BDAE6F /* thumb_NH_gov_Christopher_Sununu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B6235E9FF000BDAE6F /* thumb_NH_gov_Christopher_Sununu.jpg */; };
+		012F33E9235E9FF100BDAE6F /* thumb_WI_gov_Tony_Evers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B7235E9FF000BDAE6F /* thumb_WI_gov_Tony_Evers.jpg */; };
+		012F33EA235E9FF100BDAE6F /* thumb_WY_gov_Mark_Gordon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B8235E9FF000BDAE6F /* thumb_WY_gov_Mark_Gordon.jpg */; };
+		012F33EB235E9FF100BDAE6F /* thumb_IL_gov_JB_Pritzker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33B9235E9FF000BDAE6F /* thumb_IL_gov_JB_Pritzker.jpg */; };
+		012F33EC235E9FF100BDAE6F /* thumb_ID_gov_Brad_Little.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33BA235E9FF000BDAE6F /* thumb_ID_gov_Brad_Little.jpg */; };
+		012F33ED235E9FF100BDAE6F /* thumb_TN_gov_Bill_Lee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33BB235E9FF000BDAE6F /* thumb_TN_gov_Bill_Lee.jpg */; };
+		012F33EE235E9FF100BDAE6F /* thumb_FL_gov_Ronald_DeSantis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33BC235E9FF000BDAE6F /* thumb_FL_gov_Ronald_DeSantis.jpg */; };
+		012F33EF235E9FF100BDAE6F /* thumb_MO_gov_Michael_Parson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33BD235E9FF000BDAE6F /* thumb_MO_gov_Michael_Parson.jpg */; };
+		012F33F0235E9FF100BDAE6F /* thumb_CA_gov_Gavin_Newsom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33BE235E9FF000BDAE6F /* thumb_CA_gov_Gavin_Newsom.jpg */; };
+		012F33F1235E9FF100BDAE6F /* thumb_NE_gov_John_Ricketts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33BF235E9FF100BDAE6F /* thumb_NE_gov_John_Ricketts.jpg */; };
+		012F33F2235E9FF100BDAE6F /* thumb_NM_gov_Michelle_Lujan_Grisham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33C0235E9FF100BDAE6F /* thumb_NM_gov_Michelle_Lujan_Grisham.jpg */; };
+		012F33F3235E9FF100BDAE6F /* thumb_KY_gov_Matthew_Bevin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012F33C1235E9FF100BDAE6F /* thumb_KY_gov_Matthew_Bevin.jpg */; };
+		012F33F5235EA25500BDAE6F /* GovernorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F33F4235EA25500BDAE6F /* GovernorListView.swift */; };
+		012F33F7235EA26500BDAE6F /* GovernorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F33F6235EA26500BDAE6F /* GovernorRow.swift */; };
+		012F33F9235EA27400BDAE6F /* GovernorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F33F8235EA27400BDAE6F /* GovernorDetailView.swift */; };
+		012F33FB235EA44500BDAE6F /* ShowWikipediaGovernorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F33FA235EA44500BDAE6F /* ShowWikipediaGovernorView.swift */; };
 		014BD2E4235665F300F42BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD2E3235665F300F42BF0 /* AppDelegate.swift */; };
 		014BD2E6235665F300F42BF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD2E5235665F300F42BF0 /* SceneDelegate.swift */; };
 		014BD2E8235665F300F42BF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BD2E7235665F300F42BF0 /* ContentView.swift */; };
@@ -232,6 +339,113 @@
 		012F32B4235B69CC00BDAE6F /* fl-marco-rubio-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fl-marco-rubio-republican.jpg"; path = "../../../../../Downloads/senators/fl-marco-rubio-republican.jpg"; sourceTree = "<group>"; };
 		012F331B235BC62A00BDAE6F /* ShowWikipediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWikipediaView.swift; sourceTree = "<group>"; };
 		012F331D235D1B6200BDAE6F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		012F3323235E10DF00BDAE6F /* Senator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senator.swift; sourceTree = "<group>"; };
+		012F3325235E110500BDAE6F /* SenatorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorListView.swift; sourceTree = "<group>"; };
+		012F3327235E111500BDAE6F /* SenatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorRow.swift; sourceTree = "<group>"; };
+		012F3329235E112400BDAE6F /* SenatorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorDetailView.swift; sourceTree = "<group>"; };
+		012F332B235E207D00BDAE6F /* presidents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = presidents.json; sourceTree = "<group>"; };
+		012F332E235E21CE00BDAE6F /* US_President_L_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_7.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_7.jpg"; sourceTree = "<group>"; };
+		012F332F235E21CE00BDAE6F /* US_President_L_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_21.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_21.jpg"; sourceTree = "<group>"; };
+		012F3330235E21CE00BDAE6F /* US_President_L_25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_25.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_25.jpg"; sourceTree = "<group>"; };
+		012F3331235E21CE00BDAE6F /* US_President_L_45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_45.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_45.jpg"; sourceTree = "<group>"; };
+		012F3332235E21CE00BDAE6F /* US_President_L_26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_26.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_26.jpg"; sourceTree = "<group>"; };
+		012F3333235E21CE00BDAE6F /* US_President_L_23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_23.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_23.jpg"; sourceTree = "<group>"; };
+		012F3334235E21CE00BDAE6F /* US_President_L_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_13.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_13.jpg"; sourceTree = "<group>"; };
+		012F3335235E21CE00BDAE6F /* US_President_L_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_11.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_11.jpg"; sourceTree = "<group>"; };
+		012F3336235E21CE00BDAE6F /* US_President_L_24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_24.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_24.jpg"; sourceTree = "<group>"; };
+		012F3337235E21CE00BDAE6F /* US_President_L_27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_27.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_27.jpg"; sourceTree = "<group>"; };
+		012F3338235E21CE00BDAE6F /* US_President_L_41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_41.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_41.jpg"; sourceTree = "<group>"; };
+		012F3339235E21CE00BDAE6F /* US_President_L_22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_22.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_22.jpg"; sourceTree = "<group>"; };
+		012F333A235E21CE00BDAE6F /* US_President_L_38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_38.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_38.jpg"; sourceTree = "<group>"; };
+		012F333B235E21CE00BDAE6F /* US_President_L_44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_44.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_44.jpg"; sourceTree = "<group>"; };
+		012F333C235E21CE00BDAE6F /* US_President_L_36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_36.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_36.jpg"; sourceTree = "<group>"; };
+		012F333D235E21CE00BDAE6F /* US_President_L_29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_29.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_29.jpg"; sourceTree = "<group>"; };
+		012F333E235E21CE00BDAE6F /* US_President_L_39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_39.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_39.jpg"; sourceTree = "<group>"; };
+		012F333F235E21CF00BDAE6F /* US_President_L_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_4.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_4.jpg"; sourceTree = "<group>"; };
+		012F3340235E21CF00BDAE6F /* US_President_L_32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_32.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_32.jpg"; sourceTree = "<group>"; };
+		012F3341235E21CF00BDAE6F /* US_President_L_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_15.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_15.jpg"; sourceTree = "<group>"; };
+		012F3342235E21CF00BDAE6F /* US_President_L_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_8.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_8.jpg"; sourceTree = "<group>"; };
+		012F3343235E21CF00BDAE6F /* US_President_L_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_5.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_5.jpg"; sourceTree = "<group>"; };
+		012F3344235E21CF00BDAE6F /* US_President_L_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_2.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_2.jpg"; sourceTree = "<group>"; };
+		012F3345235E21CF00BDAE6F /* US_President_L_31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_31.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_31.jpg"; sourceTree = "<group>"; };
+		012F3346235E21CF00BDAE6F /* US_President_L_19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_19.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_19.jpg"; sourceTree = "<group>"; };
+		012F3347235E21CF00BDAE6F /* US_President_L_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_12.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_12.jpg"; sourceTree = "<group>"; };
+		012F3348235E21CF00BDAE6F /* US_President_L_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_10.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_10.jpg"; sourceTree = "<group>"; };
+		012F3349235E21CF00BDAE6F /* US_President_L_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_14.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_14.jpg"; sourceTree = "<group>"; };
+		012F334A235E21CF00BDAE6F /* US_President_L_34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_34.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_34.jpg"; sourceTree = "<group>"; };
+		012F334B235E21CF00BDAE6F /* US_President_L_37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_37.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_37.jpg"; sourceTree = "<group>"; };
+		012F334C235E21CF00BDAE6F /* US_President_L_20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_20.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_20.jpg"; sourceTree = "<group>"; };
+		012F334D235E21CF00BDAE6F /* US_President_L_40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_40.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_40.jpg"; sourceTree = "<group>"; };
+		012F334E235E21CF00BDAE6F /* US_President_L_18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_18.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_18.jpg"; sourceTree = "<group>"; };
+		012F334F235E21CF00BDAE6F /* US_President_L_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_1.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_1.jpg"; sourceTree = "<group>"; };
+		012F3350235E21CF00BDAE6F /* US_President_L_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_17.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_17.jpg"; sourceTree = "<group>"; };
+		012F3351235E21CF00BDAE6F /* US_President_L_35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_35.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_35.jpg"; sourceTree = "<group>"; };
+		012F3352235E21D000BDAE6F /* US_President_L_43.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_43.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_43.jpg"; sourceTree = "<group>"; };
+		012F3353235E21D000BDAE6F /* US_President_L_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_16.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_16.jpg"; sourceTree = "<group>"; };
+		012F3354235E21D000BDAE6F /* US_President_L_33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_33.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_33.jpg"; sourceTree = "<group>"; };
+		012F3355235E21D000BDAE6F /* US_President_L_28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_28.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_28.jpg"; sourceTree = "<group>"; };
+		012F3356235E21D000BDAE6F /* US_President_L_30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_30.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_30.jpg"; sourceTree = "<group>"; };
+		012F3357235E21D000BDAE6F /* US_President_L_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_9.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_9.jpg"; sourceTree = "<group>"; };
+		012F3358235E21D000BDAE6F /* US_President_L_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_6.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_6.jpg"; sourceTree = "<group>"; };
+		012F3359235E21D000BDAE6F /* US_President_L_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_3.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_3.jpg"; sourceTree = "<group>"; };
+		012F335A235E21D000BDAE6F /* US_President_L_42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_42.jpg; path = "../../../../../../Downloads/large president pictures/US_President_L_42.jpg"; sourceTree = "<group>"; };
+		012F3388235E73A200BDAE6F /* ShowWikipediaSenatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWikipediaSenatorView.swift; sourceTree = "<group>"; };
+		012F338B235E9EE700BDAE6F /* governors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = governors.json; sourceTree = "<group>"; };
+		012F338D235E9F7E00BDAE6F /* Governor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Governor.swift; sourceTree = "<group>"; };
+		012F3390235E9FEE00BDAE6F /* thumb_LA_gov_John_Edwards.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_LA_gov_John_Edwards.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_LA_gov_John_Edwards.jpg; sourceTree = "<group>"; };
+		012F3391235E9FEE00BDAE6F /* thumb_RI_gov_Gina_Raimondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_RI_gov_Gina_Raimondo.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_RI_gov_Gina_Raimondo.jpg; sourceTree = "<group>"; };
+		012F3392235E9FEE00BDAE6F /* thumb_IA_gov_Kimberly_Reynolds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_IA_gov_Kimberly_Reynolds.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_IA_gov_Kimberly_Reynolds.jpg; sourceTree = "<group>"; };
+		012F3393235E9FEE00BDAE6F /* thumb_AZ_gov_Douglas_Ducey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_AZ_gov_Douglas_Ducey.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_AZ_gov_Douglas_Ducey.jpg; sourceTree = "<group>"; };
+		012F3394235E9FEE00BDAE6F /* thumb_VT_gov_Philip_Scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_VT_gov_Philip_Scott.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_VT_gov_Philip_Scott.jpg; sourceTree = "<group>"; };
+		012F3395235E9FEE00BDAE6F /* thumb_AR_gov_Asa_Hutchinson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_AR_gov_Asa_Hutchinson.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_AR_gov_Asa_Hutchinson.jpg; sourceTree = "<group>"; };
+		012F3396235E9FEE00BDAE6F /* thumb_CO_gov_Jared_Polis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_CO_gov_Jared_Polis.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_CO_gov_Jared_Polis.jpg; sourceTree = "<group>"; };
+		012F3397235E9FEE00BDAE6F /* thumb_NV_gov_Steve_Sisolak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_NV_gov_Steve_Sisolak.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_NV_gov_Steve_Sisolak.jpg; sourceTree = "<group>"; };
+		012F3398235E9FEE00BDAE6F /* thumb_WA_gov_Jay_Inslee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_WA_gov_Jay_Inslee.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_WA_gov_Jay_Inslee.jpg; sourceTree = "<group>"; };
+		012F3399235E9FEE00BDAE6F /* thumb_NC_gov_Roy_Cooper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_NC_gov_Roy_Cooper.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_NC_gov_Roy_Cooper.jpg; sourceTree = "<group>"; };
+		012F339A235E9FEE00BDAE6F /* thumb_SD_gov_Kristi_Noem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_SD_gov_Kristi_Noem.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_SD_gov_Kristi_Noem.jpg; sourceTree = "<group>"; };
+		012F339B235E9FEE00BDAE6F /* thumb_KS_gov_Laura_Kelly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_KS_gov_Laura_Kelly.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_KS_gov_Laura_Kelly.jpg; sourceTree = "<group>"; };
+		012F339C235E9FEE00BDAE6F /* thumb_SC_gov_Henry_McMaster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_SC_gov_Henry_McMaster.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_SC_gov_Henry_McMaster.jpg; sourceTree = "<group>"; };
+		012F339D235E9FEE00BDAE6F /* thumb_MN_gov_Tim_Walz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_MN_gov_Tim_Walz.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_MN_gov_Tim_Walz.jpg; sourceTree = "<group>"; };
+		012F339E235E9FEE00BDAE6F /* thumb_MS_gov_Dewey_Bryant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_MS_gov_Dewey_Bryant.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_MS_gov_Dewey_Bryant.jpg; sourceTree = "<group>"; };
+		012F339F235E9FEE00BDAE6F /* thumb_MA_gov_Charles_Baker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_MA_gov_Charles_Baker.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_MA_gov_Charles_Baker.jpg; sourceTree = "<group>"; };
+		012F33A0235E9FEE00BDAE6F /* thumb_ME_gov_Janet_Mills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_ME_gov_Janet_Mills.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_ME_gov_Janet_Mills.jpg; sourceTree = "<group>"; };
+		012F33A1235E9FEE00BDAE6F /* thumb_OK_gov_Kevin_Stitt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_OK_gov_Kevin_Stitt.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_OK_gov_Kevin_Stitt.jpg; sourceTree = "<group>"; };
+		012F33A2235E9FEE00BDAE6F /* thumb_PA_gov_Thomas_Wolf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_PA_gov_Thomas_Wolf.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_PA_gov_Thomas_Wolf.jpg; sourceTree = "<group>"; };
+		012F33A3235E9FEF00BDAE6F /* thumb_VA_gov_Ralph_Northam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_VA_gov_Ralph_Northam.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_VA_gov_Ralph_Northam.jpg; sourceTree = "<group>"; };
+		012F33A4235E9FEF00BDAE6F /* thumb_OR_gov_Katherine_Brown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_OR_gov_Katherine_Brown.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_OR_gov_Katherine_Brown.jpg; sourceTree = "<group>"; };
+		012F33A5235E9FEF00BDAE6F /* thumb_OH_gov_Michael_DeWine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_OH_gov_Michael_DeWine.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_OH_gov_Michael_DeWine.jpg; sourceTree = "<group>"; };
+		012F33A6235E9FEF00BDAE6F /* thumb_NJ_gov_Philip_Murphy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_NJ_gov_Philip_Murphy.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_NJ_gov_Philip_Murphy.jpg; sourceTree = "<group>"; };
+		012F33A7235E9FEF00BDAE6F /* thumb_TX_gov_Gregory_Abbott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_TX_gov_Gregory_Abbott.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_TX_gov_Gregory_Abbott.jpg; sourceTree = "<group>"; };
+		012F33A8235E9FEF00BDAE6F /* thumb_MD_gov_Lawrence_Hogan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_MD_gov_Lawrence_Hogan.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_MD_gov_Lawrence_Hogan.jpg; sourceTree = "<group>"; };
+		012F33A9235E9FEF00BDAE6F /* thumb_WV_gov_James_Justice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_WV_gov_James_Justice.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_WV_gov_James_Justice.jpg; sourceTree = "<group>"; };
+		012F33AA235E9FEF00BDAE6F /* thumb_IN_gov_Eric_Holcomb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_IN_gov_Eric_Holcomb.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_IN_gov_Eric_Holcomb.jpg; sourceTree = "<group>"; };
+		012F33AB235E9FEF00BDAE6F /* thumb_GA_gov_Nathan_Deal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_GA_gov_Nathan_Deal.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_GA_gov_Nathan_Deal.jpg; sourceTree = "<group>"; };
+		012F33AC235E9FEF00BDAE6F /* thumb_MT_gov_Stephen_Bullock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_MT_gov_Stephen_Bullock.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_MT_gov_Stephen_Bullock.jpg; sourceTree = "<group>"; };
+		012F33AD235E9FEF00BDAE6F /* thumb_MI_gov_Gretchen_Whitmer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_MI_gov_Gretchen_Whitmer.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_MI_gov_Gretchen_Whitmer.jpg; sourceTree = "<group>"; };
+		012F33AE235E9FEF00BDAE6F /* thumb_UT_gov_Gary_Herbert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_UT_gov_Gary_Herbert.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_UT_gov_Gary_Herbert.jpg; sourceTree = "<group>"; };
+		012F33AF235E9FEF00BDAE6F /* thumb_AL_gov_Kay_Ivey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_AL_gov_Kay_Ivey.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_AL_gov_Kay_Ivey.jpg; sourceTree = "<group>"; };
+		012F33B0235E9FEF00BDAE6F /* thumb_AK_gov_Mike_Dunleavy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_AK_gov_Mike_Dunleavy.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_AK_gov_Mike_Dunleavy.jpg; sourceTree = "<group>"; };
+		012F33B1235E9FF000BDAE6F /* thumb_ND_gov_Douglas_Burgum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_ND_gov_Douglas_Burgum.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_ND_gov_Douglas_Burgum.jpg; sourceTree = "<group>"; };
+		012F33B2235E9FF000BDAE6F /* thumb_CT_gov_Edward_Lamont.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_CT_gov_Edward_Lamont.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_CT_gov_Edward_Lamont.jpg; sourceTree = "<group>"; };
+		012F33B3235E9FF000BDAE6F /* thumb_NY_gov_Andrew_Cuomo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_NY_gov_Andrew_Cuomo.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_NY_gov_Andrew_Cuomo.jpg; sourceTree = "<group>"; };
+		012F33B4235E9FF000BDAE6F /* thumb_DE_gov_John_Carney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_DE_gov_John_Carney.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_DE_gov_John_Carney.jpg; sourceTree = "<group>"; };
+		012F33B5235E9FF000BDAE6F /* thumb_HI_gov_David_Ige.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_HI_gov_David_Ige.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_HI_gov_David_Ige.jpg; sourceTree = "<group>"; };
+		012F33B6235E9FF000BDAE6F /* thumb_NH_gov_Christopher_Sununu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_NH_gov_Christopher_Sununu.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_NH_gov_Christopher_Sununu.jpg; sourceTree = "<group>"; };
+		012F33B7235E9FF000BDAE6F /* thumb_WI_gov_Tony_Evers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_WI_gov_Tony_Evers.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_WI_gov_Tony_Evers.jpg; sourceTree = "<group>"; };
+		012F33B8235E9FF000BDAE6F /* thumb_WY_gov_Mark_Gordon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_WY_gov_Mark_Gordon.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_WY_gov_Mark_Gordon.jpg; sourceTree = "<group>"; };
+		012F33B9235E9FF000BDAE6F /* thumb_IL_gov_JB_Pritzker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_IL_gov_JB_Pritzker.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_IL_gov_JB_Pritzker.jpg; sourceTree = "<group>"; };
+		012F33BA235E9FF000BDAE6F /* thumb_ID_gov_Brad_Little.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_ID_gov_Brad_Little.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_ID_gov_Brad_Little.jpg; sourceTree = "<group>"; };
+		012F33BB235E9FF000BDAE6F /* thumb_TN_gov_Bill_Lee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_TN_gov_Bill_Lee.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_TN_gov_Bill_Lee.jpg; sourceTree = "<group>"; };
+		012F33BC235E9FF000BDAE6F /* thumb_FL_gov_Ronald_DeSantis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_FL_gov_Ronald_DeSantis.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_FL_gov_Ronald_DeSantis.jpg; sourceTree = "<group>"; };
+		012F33BD235E9FF000BDAE6F /* thumb_MO_gov_Michael_Parson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_MO_gov_Michael_Parson.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_MO_gov_Michael_Parson.jpg; sourceTree = "<group>"; };
+		012F33BE235E9FF000BDAE6F /* thumb_CA_gov_Gavin_Newsom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_CA_gov_Gavin_Newsom.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_CA_gov_Gavin_Newsom.jpg; sourceTree = "<group>"; };
+		012F33BF235E9FF100BDAE6F /* thumb_NE_gov_John_Ricketts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_NE_gov_John_Ricketts.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_NE_gov_John_Ricketts.jpg; sourceTree = "<group>"; };
+		012F33C0235E9FF100BDAE6F /* thumb_NM_gov_Michelle_Lujan_Grisham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_NM_gov_Michelle_Lujan_Grisham.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_NM_gov_Michelle_Lujan_Grisham.jpg; sourceTree = "<group>"; };
+		012F33C1235E9FF100BDAE6F /* thumb_KY_gov_Matthew_Bevin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb_KY_gov_Matthew_Bevin.jpg; path = ../../../../../../Downloads/Thumbnail/thumb_KY_gov_Matthew_Bevin.jpg; sourceTree = "<group>"; };
+		012F33F4235EA25500BDAE6F /* GovernorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovernorListView.swift; sourceTree = "<group>"; };
+		012F33F6235EA26500BDAE6F /* GovernorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovernorRow.swift; sourceTree = "<group>"; };
+		012F33F8235EA27400BDAE6F /* GovernorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovernorDetailView.swift; sourceTree = "<group>"; };
+		012F33FA235EA44500BDAE6F /* ShowWikipediaGovernorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWikipediaGovernorView.swift; sourceTree = "<group>"; };
 		014BD2E0235665F300F42BF0 /* Project 2 Testing 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 2 Testing 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		014BD2E3235665F300F42BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		014BD2E5235665F300F42BF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -366,6 +580,150 @@
 			path = SenatorImages;
 			sourceTree = "<group>";
 		};
+		012F331F235E105300BDAE6F /* Presidents */ = {
+			isa = PBXGroup;
+			children = (
+				014BD2F7235666B600F42BF0 /* PresidentListView.swift */,
+				014BD2F92356673400F42BF0 /* PresidentDetailView.swift */,
+				014BD3022356944F00F42BF0 /* PresidentRow.swift */,
+				012F331B235BC62A00BDAE6F /* ShowWikipediaView.swift */,
+				012F332D235E215B00BDAE6F /* PresidentImages */,
+			);
+			path = Presidents;
+			sourceTree = "<group>";
+		};
+		012F3320235E109800BDAE6F /* Senators */ = {
+			isa = PBXGroup;
+			children = (
+				012F3325235E110500BDAE6F /* SenatorListView.swift */,
+				012F3327235E111500BDAE6F /* SenatorRow.swift */,
+				012F3329235E112400BDAE6F /* SenatorDetailView.swift */,
+				012F3388235E73A200BDAE6F /* ShowWikipediaSenatorView.swift */,
+			);
+			path = Senators;
+			sourceTree = "<group>";
+		};
+		012F332D235E215B00BDAE6F /* PresidentImages */ = {
+			isa = PBXGroup;
+			children = (
+				012F334F235E21CF00BDAE6F /* US_President_L_1.jpg */,
+				012F3344235E21CF00BDAE6F /* US_President_L_2.jpg */,
+				012F3359235E21D000BDAE6F /* US_President_L_3.jpg */,
+				012F333F235E21CF00BDAE6F /* US_President_L_4.jpg */,
+				012F3343235E21CF00BDAE6F /* US_President_L_5.jpg */,
+				012F3358235E21D000BDAE6F /* US_President_L_6.jpg */,
+				012F332E235E21CE00BDAE6F /* US_President_L_7.jpg */,
+				012F3342235E21CF00BDAE6F /* US_President_L_8.jpg */,
+				012F3357235E21D000BDAE6F /* US_President_L_9.jpg */,
+				012F3348235E21CF00BDAE6F /* US_President_L_10.jpg */,
+				012F3335235E21CE00BDAE6F /* US_President_L_11.jpg */,
+				012F3347235E21CF00BDAE6F /* US_President_L_12.jpg */,
+				012F3334235E21CE00BDAE6F /* US_President_L_13.jpg */,
+				012F3349235E21CF00BDAE6F /* US_President_L_14.jpg */,
+				012F3341235E21CF00BDAE6F /* US_President_L_15.jpg */,
+				012F3353235E21D000BDAE6F /* US_President_L_16.jpg */,
+				012F3350235E21CF00BDAE6F /* US_President_L_17.jpg */,
+				012F334E235E21CF00BDAE6F /* US_President_L_18.jpg */,
+				012F3346235E21CF00BDAE6F /* US_President_L_19.jpg */,
+				012F334C235E21CF00BDAE6F /* US_President_L_20.jpg */,
+				012F332F235E21CE00BDAE6F /* US_President_L_21.jpg */,
+				012F3339235E21CE00BDAE6F /* US_President_L_22.jpg */,
+				012F3333235E21CE00BDAE6F /* US_President_L_23.jpg */,
+				012F3336235E21CE00BDAE6F /* US_President_L_24.jpg */,
+				012F3330235E21CE00BDAE6F /* US_President_L_25.jpg */,
+				012F3332235E21CE00BDAE6F /* US_President_L_26.jpg */,
+				012F3337235E21CE00BDAE6F /* US_President_L_27.jpg */,
+				012F3355235E21D000BDAE6F /* US_President_L_28.jpg */,
+				012F333D235E21CE00BDAE6F /* US_President_L_29.jpg */,
+				012F3356235E21D000BDAE6F /* US_President_L_30.jpg */,
+				012F3345235E21CF00BDAE6F /* US_President_L_31.jpg */,
+				012F3340235E21CF00BDAE6F /* US_President_L_32.jpg */,
+				012F3354235E21D000BDAE6F /* US_President_L_33.jpg */,
+				012F334A235E21CF00BDAE6F /* US_President_L_34.jpg */,
+				012F3351235E21CF00BDAE6F /* US_President_L_35.jpg */,
+				012F333C235E21CE00BDAE6F /* US_President_L_36.jpg */,
+				012F334B235E21CF00BDAE6F /* US_President_L_37.jpg */,
+				012F333A235E21CE00BDAE6F /* US_President_L_38.jpg */,
+				012F333E235E21CE00BDAE6F /* US_President_L_39.jpg */,
+				012F334D235E21CF00BDAE6F /* US_President_L_40.jpg */,
+				012F3338235E21CE00BDAE6F /* US_President_L_41.jpg */,
+				012F335A235E21D000BDAE6F /* US_President_L_42.jpg */,
+				012F3352235E21D000BDAE6F /* US_President_L_43.jpg */,
+				012F333B235E21CE00BDAE6F /* US_President_L_44.jpg */,
+				012F3331235E21CE00BDAE6F /* US_President_L_45.jpg */,
+			);
+			path = PresidentImages;
+			sourceTree = "<group>";
+		};
+		012F338A235E9ECB00BDAE6F /* Governors */ = {
+			isa = PBXGroup;
+			children = (
+				012F33F4235EA25500BDAE6F /* GovernorListView.swift */,
+				012F33F6235EA26500BDAE6F /* GovernorRow.swift */,
+				012F33F8235EA27400BDAE6F /* GovernorDetailView.swift */,
+				012F33FA235EA44500BDAE6F /* ShowWikipediaGovernorView.swift */,
+				012F338F235E9FDD00BDAE6F /* GovernorImages */,
+			);
+			path = Governors;
+			sourceTree = "<group>";
+		};
+		012F338F235E9FDD00BDAE6F /* GovernorImages */ = {
+			isa = PBXGroup;
+			children = (
+				012F33B0235E9FEF00BDAE6F /* thumb_AK_gov_Mike_Dunleavy.jpg */,
+				012F33AF235E9FEF00BDAE6F /* thumb_AL_gov_Kay_Ivey.jpg */,
+				012F3395235E9FEE00BDAE6F /* thumb_AR_gov_Asa_Hutchinson.jpg */,
+				012F3393235E9FEE00BDAE6F /* thumb_AZ_gov_Douglas_Ducey.jpg */,
+				012F33BE235E9FF000BDAE6F /* thumb_CA_gov_Gavin_Newsom.jpg */,
+				012F3396235E9FEE00BDAE6F /* thumb_CO_gov_Jared_Polis.jpg */,
+				012F33B2235E9FF000BDAE6F /* thumb_CT_gov_Edward_Lamont.jpg */,
+				012F33B4235E9FF000BDAE6F /* thumb_DE_gov_John_Carney.jpg */,
+				012F33BC235E9FF000BDAE6F /* thumb_FL_gov_Ronald_DeSantis.jpg */,
+				012F33AB235E9FEF00BDAE6F /* thumb_GA_gov_Nathan_Deal.jpg */,
+				012F33B5235E9FF000BDAE6F /* thumb_HI_gov_David_Ige.jpg */,
+				012F3392235E9FEE00BDAE6F /* thumb_IA_gov_Kimberly_Reynolds.jpg */,
+				012F33BA235E9FF000BDAE6F /* thumb_ID_gov_Brad_Little.jpg */,
+				012F33B9235E9FF000BDAE6F /* thumb_IL_gov_JB_Pritzker.jpg */,
+				012F33AA235E9FEF00BDAE6F /* thumb_IN_gov_Eric_Holcomb.jpg */,
+				012F339B235E9FEE00BDAE6F /* thumb_KS_gov_Laura_Kelly.jpg */,
+				012F33C1235E9FF100BDAE6F /* thumb_KY_gov_Matthew_Bevin.jpg */,
+				012F3390235E9FEE00BDAE6F /* thumb_LA_gov_John_Edwards.jpg */,
+				012F339F235E9FEE00BDAE6F /* thumb_MA_gov_Charles_Baker.jpg */,
+				012F33A8235E9FEF00BDAE6F /* thumb_MD_gov_Lawrence_Hogan.jpg */,
+				012F33A0235E9FEE00BDAE6F /* thumb_ME_gov_Janet_Mills.jpg */,
+				012F33AD235E9FEF00BDAE6F /* thumb_MI_gov_Gretchen_Whitmer.jpg */,
+				012F339D235E9FEE00BDAE6F /* thumb_MN_gov_Tim_Walz.jpg */,
+				012F33BD235E9FF000BDAE6F /* thumb_MO_gov_Michael_Parson.jpg */,
+				012F339E235E9FEE00BDAE6F /* thumb_MS_gov_Dewey_Bryant.jpg */,
+				012F33AC235E9FEF00BDAE6F /* thumb_MT_gov_Stephen_Bullock.jpg */,
+				012F3399235E9FEE00BDAE6F /* thumb_NC_gov_Roy_Cooper.jpg */,
+				012F33B1235E9FF000BDAE6F /* thumb_ND_gov_Douglas_Burgum.jpg */,
+				012F33BF235E9FF100BDAE6F /* thumb_NE_gov_John_Ricketts.jpg */,
+				012F33B6235E9FF000BDAE6F /* thumb_NH_gov_Christopher_Sununu.jpg */,
+				012F33A6235E9FEF00BDAE6F /* thumb_NJ_gov_Philip_Murphy.jpg */,
+				012F33C0235E9FF100BDAE6F /* thumb_NM_gov_Michelle_Lujan_Grisham.jpg */,
+				012F3397235E9FEE00BDAE6F /* thumb_NV_gov_Steve_Sisolak.jpg */,
+				012F33B3235E9FF000BDAE6F /* thumb_NY_gov_Andrew_Cuomo.jpg */,
+				012F33A5235E9FEF00BDAE6F /* thumb_OH_gov_Michael_DeWine.jpg */,
+				012F33A1235E9FEE00BDAE6F /* thumb_OK_gov_Kevin_Stitt.jpg */,
+				012F33A4235E9FEF00BDAE6F /* thumb_OR_gov_Katherine_Brown.jpg */,
+				012F33A2235E9FEE00BDAE6F /* thumb_PA_gov_Thomas_Wolf.jpg */,
+				012F3391235E9FEE00BDAE6F /* thumb_RI_gov_Gina_Raimondo.jpg */,
+				012F339C235E9FEE00BDAE6F /* thumb_SC_gov_Henry_McMaster.jpg */,
+				012F339A235E9FEE00BDAE6F /* thumb_SD_gov_Kristi_Noem.jpg */,
+				012F33BB235E9FF000BDAE6F /* thumb_TN_gov_Bill_Lee.jpg */,
+				012F33A7235E9FEF00BDAE6F /* thumb_TX_gov_Gregory_Abbott.jpg */,
+				012F33AE235E9FEF00BDAE6F /* thumb_UT_gov_Gary_Herbert.jpg */,
+				012F33A3235E9FEF00BDAE6F /* thumb_VA_gov_Ralph_Northam.jpg */,
+				012F3394235E9FEE00BDAE6F /* thumb_VT_gov_Philip_Scott.jpg */,
+				012F3398235E9FEE00BDAE6F /* thumb_WA_gov_Jay_Inslee.jpg */,
+				012F33B7235E9FF000BDAE6F /* thumb_WI_gov_Tony_Evers.jpg */,
+				012F33A9235E9FEF00BDAE6F /* thumb_WV_gov_James_Justice.jpg */,
+				012F33B8235E9FF000BDAE6F /* thumb_WY_gov_Mark_Gordon.jpg */,
+			);
+			path = GovernorImages;
+			sourceTree = "<group>";
+		};
 		014BD2D7235665F300F42BF0 = {
 			isa = PBXGroup;
 			children = (
@@ -385,6 +743,9 @@
 		014BD2E2235665F300F42BF0 /* Project 2 Testing 2 */ = {
 			isa = PBXGroup;
 			children = (
+				012F338A235E9ECB00BDAE6F /* Governors */,
+				012F3320235E109800BDAE6F /* Senators */,
+				012F331F235E105300BDAE6F /* Presidents */,
 				012F324E235B692900BDAE6F /* SenatorImages */,
 				014BD3062356969D00F42BF0 /* Models */,
 				014BD2FF235693D000F42BF0 /* Json */,
@@ -395,10 +756,6 @@
 				014BD2EE235665F500F42BF0 /* LaunchScreen.storyboard */,
 				014BD2F1235665F500F42BF0 /* Info.plist */,
 				014BD2EB235665F500F42BF0 /* Preview Content */,
-				014BD2F7235666B600F42BF0 /* PresidentListView.swift */,
-				014BD2F92356673400F42BF0 /* PresidentDetailView.swift */,
-				014BD3022356944F00F42BF0 /* PresidentRow.swift */,
-				012F331B235BC62A00BDAE6F /* ShowWikipediaView.swift */,
 				012F331D235D1B6200BDAE6F /* WebView.swift */,
 			);
 			path = "Project 2 Testing 2";
@@ -417,6 +774,8 @@
 			children = (
 				012F324923580A6E00BDAE6F /* test.json */,
 				012F324A235819F600BDAE6F /* senators.json */,
+				012F332B235E207D00BDAE6F /* presidents.json */,
+				012F338B235E9EE700BDAE6F /* governors.json */,
 			);
 			path = Json;
 			sourceTree = "<group>";
@@ -426,6 +785,8 @@
 			children = (
 				014BD307235696B000F42BF0 /* Data.swift */,
 				014BD2FB2356686500F42BF0 /* President.swift */,
+				012F3323235E10DF00BDAE6F /* Senator.swift */,
+				012F338D235E9F7E00BDAE6F /* Governor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -490,111 +851,208 @@
 			files = (
 				012F32C9235B69CC00BDAE6F /* mi-gary-peters-democrat.jpg in Resources */,
 				012F3303235B69CC00BDAE6F /* va-tim-kaine-democrat.jpg in Resources */,
+				012F33F2235E9FF100BDAE6F /* thumb_NM_gov_Michelle_Lujan_Grisham.jpg in Resources */,
 				012F3302235B69CC00BDAE6F /* mt-jon-tester-democrat.jpg in Resources */,
 				012F32C7235B69CC00BDAE6F /* md-benjamin-cardin-democrat.jpg in Resources */,
+				012F336C235E21D000BDAE6F /* US_President_L_4.jpg in Resources */,
+				012F33EE235E9FF100BDAE6F /* thumb_FL_gov_Ronald_DeSantis.jpg in Resources */,
 				012F32C6235B69CC00BDAE6F /* ga-johnny-isakson-republican.jpg in Resources */,
 				012F32FA235B69CC00BDAE6F /* ri-sheldon-whitehouse-democrat.jpg in Resources */,
 				012F3307235B69CC00BDAE6F /* nd-kevin-cramer-republican.jpg in Resources */,
+				012F33D6235E9FF100BDAE6F /* thumb_OR_gov_Katherine_Brown.jpg in Resources */,
+				012F33D1235E9FF100BDAE6F /* thumb_MA_gov_Charles_Baker.jpg in Resources */,
+				012F33E8235E9FF100BDAE6F /* thumb_NH_gov_Christopher_Sununu.jpg in Resources */,
 				012F32F8235B69CC00BDAE6F /* sd-john-thune-republican.jpg in Resources */,
+				012F33D0235E9FF100BDAE6F /* thumb_MS_gov_Dewey_Bryant.jpg in Resources */,
 				012F32CF235B69CC00BDAE6F /* in-todd-young-republican.jpg in Resources */,
+				012F337D235E21D000BDAE6F /* US_President_L_17.jpg in Resources */,
+				012F33D8235E9FF100BDAE6F /* thumb_NJ_gov_Philip_Murphy.jpg in Resources */,
 				012F32F1235B69CC00BDAE6F /* al-richard-shelby-republican.jpg in Resources */,
 				012F32EF235B69CC00BDAE6F /* me-angus-king-independent.jpg in Resources */,
 				012F32FE235B69CC00BDAE6F /* ca-kamala-harris-democrat.jpg in Resources */,
+				012F33D2235E9FF100BDAE6F /* thumb_ME_gov_Janet_Mills.jpg in Resources */,
 				012F32E2235B69CC00BDAE6F /* ct-richard-blumenthal-democrat.jpg in Resources */,
+				012F3381235E21D000BDAE6F /* US_President_L_33.jpg in Resources */,
 				012F3316235B69CC00BDAE6F /* ca-dianne-feinstein-democrat.jpg in Resources */,
+				012F338C235E9EE700BDAE6F /* governors.json in Resources */,
 				012F32CE235B69CC00BDAE6F /* co-cory-gardner-republican.jpg in Resources */,
+				012F3366235E21D000BDAE6F /* US_President_L_22.jpg in Resources */,
 				012F330B235B69CC00BDAE6F /* de-thomas-carper-democrat.jpg in Resources */,
 				012F3312235B69CC00BDAE6F /* ny-charles-schumer-democrat.jpg in Resources */,
 				012F324D235B68AE00BDAE6F /* Data.swift in Resources */,
+				012F33EB235E9FF100BDAE6F /* thumb_IL_gov_JB_Pritzker.jpg in Resources */,
+				012F3364235E21D000BDAE6F /* US_President_L_27.jpg in Resources */,
+				012F3378235E21D000BDAE6F /* US_President_L_37.jpg in Resources */,
 				012F32FC235B69CC00BDAE6F /* al-gordon-jones-democrat.jpg in Resources */,
+				012F3377235E21D000BDAE6F /* US_President_L_34.jpg in Resources */,
+				012F33E9235E9FF100BDAE6F /* thumb_WI_gov_Tony_Evers.jpg in Resources */,
+				012F33CC235E9FF100BDAE6F /* thumb_SD_gov_Kristi_Noem.jpg in Resources */,
 				012F32FF235B69CC00BDAE6F /* ar-tom-cotton-republican.jpg in Resources */,
 				012F32D9235B69CC00BDAE6F /* id-james-risch-republican.jpg in Resources */,
 				012F32DE235B69CC00BDAE6F /* wa-patty-murray-democrat.jpg in Resources */,
+				012F33D3235E9FF100BDAE6F /* thumb_OK_gov_Kevin_Stitt.jpg in Resources */,
+				012F33E3235E9FF100BDAE6F /* thumb_ND_gov_Douglas_Burgum.jpg in Resources */,
+				012F33F3235E9FF100BDAE6F /* thumb_KY_gov_Matthew_Bevin.jpg in Resources */,
 				012F32EE235B69CC00BDAE6F /* download_senators.rb in Resources */,
 				012F324C235ACE4800BDAE6F /* senators.json in Resources */,
 				012F32B7235B69CC00BDAE6F /* ga-david-perdue-republican.jpg in Resources */,
+				012F33C8235E9FF100BDAE6F /* thumb_CO_gov_Jared_Polis.jpg in Resources */,
+				012F337B235E21D000BDAE6F /* US_President_L_18.jpg in Resources */,
 				012F32CC235B69CC00BDAE6F /* or-jeff-merkley-democrat.jpg in Resources */,
+				012F33CA235E9FF100BDAE6F /* thumb_WA_gov_Jay_Inslee.jpg in Resources */,
 				012F32BF235B69CC00BDAE6F /* nm-tom-udall-democrat.jpg in Resources */,
+				012F3368235E21D000BDAE6F /* US_President_L_44.jpg in Resources */,
 				012F32E5235B69CC00BDAE6F /* mt-steve-daines-republican.jpg in Resources */,
 				012F32D4235B69CC00BDAE6F /* il-richard-durbin-democrat.jpg in Resources */,
 				012F324B2358BD1E00BDAE6F /* test.json in Resources */,
+				012F3360235E21D000BDAE6F /* US_President_L_23.jpg in Resources */,
 				012F32EC235B69CC00BDAE6F /* wv-joe-manchin-democrat.jpg in Resources */,
 				012F32BB235B69CC00BDAE6F /* co-michael-bennet-democrat.jpg in Resources */,
+				012F33DF235E9FF100BDAE6F /* thumb_MI_gov_Gretchen_Whitmer.jpg in Resources */,
+				012F337A235E21D000BDAE6F /* US_President_L_40.jpg in Resources */,
+				012F33E5235E9FF100BDAE6F /* thumb_NY_gov_Andrew_Cuomo.jpg in Resources */,
+				012F33EA235E9FF100BDAE6F /* thumb_WY_gov_Mark_Gordon.jpg in Resources */,
+				012F335C235E21D000BDAE6F /* US_President_L_21.jpg in Resources */,
 				014BD2F0235665F500F42BF0 /* LaunchScreen.storyboard in Resources */,
+				012F3382235E21D000BDAE6F /* US_President_L_28.jpg in Resources */,
+				012F3365235E21D000BDAE6F /* US_President_L_41.jpg in Resources */,
 				012F32E4235B69CC00BDAE6F /* tx-ted-cruz-republican.jpg in Resources */,
+				012F336E235E21D000BDAE6F /* US_President_L_15.jpg in Resources */,
+				012F3367235E21D000BDAE6F /* US_President_L_38.jpg in Resources */,
+				012F33E7235E9FF100BDAE6F /* thumb_HI_gov_David_Ige.jpg in Resources */,
+				012F336B235E21D000BDAE6F /* US_President_L_39.jpg in Resources */,
 				012F32C8235B69CC00BDAE6F /* mi-debbie-stabenow-democrat.jpg in Resources */,
 				012F32BA235B69CC00BDAE6F /* nh-margaret-hassan-democrat.jpg in Resources */,
 				012F32EB235B69CC00BDAE6F /* or-ron-wyden-democrat.jpg in Resources */,
+				012F33D5235E9FF100BDAE6F /* thumb_VA_gov_Ralph_Northam.jpg in Resources */,
 				012F32D8235B69CC00BDAE6F /* nj-robert-menendez-democrat.jpg in Resources */,
+				012F33C4235E9FF100BDAE6F /* thumb_IA_gov_Kimberly_Reynolds.jpg in Resources */,
 				012F3314235B69CC00BDAE6F /* la-john-kennedy-republican.jpg in Resources */,
 				012F32F3235B69CC00BDAE6F /* la-bill-cassidy-republican.jpg in Resources */,
+				012F33F1235E9FF100BDAE6F /* thumb_NE_gov_John_Ricketts.jpg in Resources */,
 				012F32F4235B69CC00BDAE6F /* ok-james-lankford-republican.jpg in Resources */,
 				012F32DF235B69CC00BDAE6F /* hi-mazie-hirono-democrat.jpg in Resources */,
 				012F330F235B69CC00BDAE6F /* ky-rand-paul-republican.jpg in Resources */,
+				012F335B235E21D000BDAE6F /* US_President_L_7.jpg in Resources */,
 				012F32B6235B69CC00BDAE6F /* me-susan-collins-republican.jpg in Resources */,
+				012F3380235E21D000BDAE6F /* US_President_L_16.jpg in Resources */,
 				012F32E9235B69CC00BDAE6F /* il-tammy-duckworth-democrat.jpg in Resources */,
 				012F32EA235B69CC00BDAE6F /* sc-tim-scott-republican.jpg in Resources */,
+				012F33D4235E9FF100BDAE6F /* thumb_PA_gov_Thomas_Wolf.jpg in Resources */,
+				012F33F0235E9FF100BDAE6F /* thumb_CA_gov_Gavin_Newsom.jpg in Resources */,
+				012F335D235E21D000BDAE6F /* US_President_L_25.jpg in Resources */,
 				012F32C4235B69CC00BDAE6F /* sd-mike-rounds-republican.jpg in Resources */,
+				012F3363235E21D000BDAE6F /* US_President_L_24.jpg in Resources */,
 				012F32E0235B69CC00BDAE6F /* vt-patrick-leahy-democrat.jpg in Resources */,
 				012F32F5235B69CC00BDAE6F /* mn-tina-smith-democrat.jpg in Resources */,
 				012F32DC235B69CC00BDAE6F /* sc-lindsey-graham-republican.jpg in Resources */,
 				012F330C235B69CC00BDAE6F /* va-mark-warner-democrat.jpg in Resources */,
+				012F33CE235E9FF100BDAE6F /* thumb_SC_gov_Henry_McMaster.jpg in Resources */,
+				012F3371235E21D000BDAE6F /* US_President_L_2.jpg in Resources */,
+				012F33CB235E9FF100BDAE6F /* thumb_NC_gov_Roy_Cooper.jpg in Resources */,
+				012F33E4235E9FF100BDAE6F /* thumb_CT_gov_Edward_Lamont.jpg in Resources */,
 				012F32C2235B69CC00BDAE6F /* az-martha-mcsally-republican.jpg in Resources */,
 				012F32D6235B69CC00BDAE6F /* in-mike-braun-republican.jpg in Resources */,
 				012F3306235B69CC00BDAE6F /* ma-edward-markey-democrat.jpg in Resources */,
 				012F330D235B69CC00BDAE6F /* nc-thom-tillis-republican.jpg in Resources */,
+				012F3379235E21D000BDAE6F /* US_President_L_20.jpg in Resources */,
 				012F32BC235B69CC00BDAE6F /* mo-roy-blunt-republican.jpg in Resources */,
 				012F3305235B69CC00BDAE6F /* id-mike-crapo-republican.jpg in Resources */,
 				012F32B9235B69CC00BDAE6F /* ne-deb-fischer-republican.jpg in Resources */,
 				012F32F0235B69CC00BDAE6F /* de-christopher-coons-democrat.jpg in Resources */,
 				012F330A235B69CC00BDAE6F /* nd-john-hoeven-republican.jpg in Resources */,
+				012F332C235E207D00BDAE6F /* presidents.json in Resources */,
+				012F3372235E21D000BDAE6F /* US_President_L_31.jpg in Resources */,
+				012F3384235E21D000BDAE6F /* US_President_L_9.jpg in Resources */,
 				012F32CD235B69CC00BDAE6F /* wy-michael-enzi-republican.jpg in Resources */,
+				012F33E6235E9FF100BDAE6F /* thumb_DE_gov_John_Carney.jpg in Resources */,
 				012F32F9235B69CC00BDAE6F /* ma-elizabeth-warren-democrat.jpg in Resources */,
 				012F32B5235B69CC00BDAE6F /* ks-pat-roberts-republican.jpg in Resources */,
 				012F32D1235B69CC00BDAE6F /* nc-richard-burr-republican.jpg in Resources */,
 				012F331A235B69CC00BDAE6F /* fl-marco-rubio-republican.jpg in Resources */,
 				012F32BD235B69CC00BDAE6F /* az-kyrsten-sinema-democrat.jpg in Resources */,
+				012F33C6235E9FF100BDAE6F /* thumb_VT_gov_Philip_Scott.jpg in Resources */,
+				012F33DC235E9FF100BDAE6F /* thumb_IN_gov_Eric_Holcomb.jpg in Resources */,
 				012F3310235B69CC00BDAE6F /* wy-john-barrasso-republican.jpg in Resources */,
 				012F32DB235B69CC00BDAE6F /* wi-ron-johnson-republican.jpg in Resources */,
+				012F33C2235E9FF100BDAE6F /* thumb_LA_gov_John_Edwards.jpg in Resources */,
 				012F32D0235B69CC00BDAE6F /* ny-kirsten-gillibrand-democrat.jpg in Resources */,
 				012F32E6235B69CC00BDAE6F /* tx-john-cornyn-republican.jpg in Resources */,
 				012F32F2235B69CC00BDAE6F /* ut-mitt-romney-republican.jpg in Resources */,
+				012F3370235E21D000BDAE6F /* US_President_L_5.jpg in Resources */,
+				012F3374235E21D000BDAE6F /* US_President_L_12.jpg in Resources */,
 				012F3311235B69CC00BDAE6F /* tn-marsha-blackburn-republican.jpg in Resources */,
+				012F33DB235E9FF100BDAE6F /* thumb_WV_gov_James_Justice.jpg in Resources */,
 				012F32D2235B69CC00BDAE6F /* ut-mike-lee-republican.jpg in Resources */,
+				012F33E2235E9FF100BDAE6F /* thumb_AK_gov_Mike_Dunleavy.jpg in Resources */,
+				012F3369235E21D000BDAE6F /* US_President_L_36.jpg in Resources */,
 				012F32E1235B69CC00BDAE6F /* ia-charles-grassley-republican.jpg in Resources */,
 				012F32E3235B69CC00BDAE6F /* nv-catherine-masto-democrat.jpg in Resources */,
 				012F32BE235B69CC00BDAE6F /* tn-lamar-alexander-republican.jpg in Resources */,
+				012F3387235E21D000BDAE6F /* US_President_L_42.jpg in Resources */,
+				012F336D235E21D000BDAE6F /* US_President_L_32.jpg in Resources */,
 				012F32D5235B69CC00BDAE6F /* ok-james-inhofe-republican.jpg in Resources */,
+				012F33D7235E9FF100BDAE6F /* thumb_OH_gov_Michael_DeWine.jpg in Resources */,
 				012F3309235B69CC00BDAE6F /* md-chris-van-hollen-democrat.jpg in Resources */,
 				012F32C3235B69CC00BDAE6F /* ne-ben-sasse-republican.jpg in Resources */,
 				012F3315235B69CC00BDAE6F /* nh-jeanne-shaheen-democrat.jpg in Resources */,
+				012F337F235E21D000BDAE6F /* US_President_L_43.jpg in Resources */,
+				012F33CF235E9FF100BDAE6F /* thumb_MN_gov_Tim_Walz.jpg in Resources */,
 				012F32F6235B69CC00BDAE6F /* oh-sherrod-brown-democrat.jpg in Resources */,
 				012F32CA235B69CC00BDAE6F /* wv-shelley-capito-republican.jpg in Resources */,
+				012F33C3235E9FF100BDAE6F /* thumb_RI_gov_Gina_Raimondo.jpg in Resources */,
+				012F3385235E21D000BDAE6F /* US_President_L_6.jpg in Resources */,
 				012F32CB235B69CC00BDAE6F /* fl-rick-scott-republican.jpg in Resources */,
+				012F3361235E21D000BDAE6F /* US_President_L_13.jpg in Resources */,
 				012F32FB235B69CC00BDAE6F /* pa-robert-casey-democrat.jpg in Resources */,
 				012F32E8235B69CC00BDAE6F /* ct-christopher-murphy-democrat.jpg in Resources */,
 				012F32C0235B69CC00BDAE6F /* ar-john-boozman-republican.jpg in Resources */,
+				012F336F235E21D000BDAE6F /* US_President_L_8.jpg in Resources */,
+				012F3373235E21D000BDAE6F /* US_President_L_19.jpg in Resources */,
+				012F33EF235E9FF100BDAE6F /* thumb_MO_gov_Michael_Parson.jpg in Resources */,
 				012F3308235B69CC00BDAE6F /* ky-mitch-mcconnell-republican.jpg in Resources */,
 				012F32DA235B69CC00BDAE6F /* mn-amy-klobuchar-democrat.jpg in Resources */,
+				012F33E1235E9FF100BDAE6F /* thumb_AL_gov_Kay_Ivey.jpg in Resources */,
+				012F33C7235E9FF100BDAE6F /* thumb_AR_gov_Asa_Hutchinson.jpg in Resources */,
 				012F32DD235B69CC00BDAE6F /* ak-lisa-murkowski-republican.jpg in Resources */,
+				012F3376235E21D000BDAE6F /* US_President_L_14.jpg in Resources */,
+				012F336A235E21D000BDAE6F /* US_President_L_29.jpg in Resources */,
+				012F337C235E21D000BDAE6F /* US_President_L_1.jpg in Resources */,
 				012F3300235B69CC00BDAE6F /* nv-jacky-rosen-democrat.jpg in Resources */,
+				012F33CD235E9FF100BDAE6F /* thumb_KS_gov_Laura_Kelly.jpg in Resources */,
+				012F33E0235E9FF100BDAE6F /* thumb_UT_gov_Gary_Herbert.jpg in Resources */,
+				012F3375235E21D000BDAE6F /* US_President_L_10.jpg in Resources */,
+				012F337E235E21D000BDAE6F /* US_President_L_35.jpg in Resources */,
 				012F32C1235B69CC00BDAE6F /* wa-maria-cantwell-democrat.jpg in Resources */,
 				012F3318235B69CC00BDAE6F /* mo-josh-hawley-republican.jpg in Resources */,
+				012F3383235E21D000BDAE6F /* US_President_L_30.jpg in Resources */,
 				012F32FD235B69CC00BDAE6F /* vt-bernard-sanders-independent.jpg in Resources */,
+				012F33DD235E9FF100BDAE6F /* thumb_GA_gov_Nathan_Deal.jpg in Resources */,
 				012F330E235B69CC00BDAE6F /* nm-martin-heinrich-democrat.jpg in Resources */,
 				012F32D3235B69CC00BDAE6F /* hi-brian-shcatz-democrat.jpg in Resources */,
 				014BD2ED235665F500F42BF0 /* Preview Assets.xcassets in Resources */,
 				012F3304235B69CC00BDAE6F /* ms-thad-cochran-republican.jpg in Resources */,
 				014BD2EA235665F500F42BF0 /* Assets.xcassets in Resources */,
 				012F3301235B69CC00BDAE6F /* ak-daniel-sullivan-republican.jpg in Resources */,
+				012F33C5235E9FF100BDAE6F /* thumb_AZ_gov_Douglas_Ducey.jpg in Resources */,
 				012F32D7235B69CC00BDAE6F /* ks-jerry-moran-republican.jpg in Resources */,
 				012F3317235B69CC00BDAE6F /* nj-cory-booker-democrat.jpg in Resources */,
+				012F33EC235E9FF100BDAE6F /* thumb_ID_gov_Brad_Little.jpg in Resources */,
 				012F32B8235B69CC00BDAE6F /* ri-jack-reed-democrat.jpg in Resources */,
 				012F32ED235B69CC00BDAE6F /* ms-roger-wicker-republican.jpg in Resources */,
+				012F33DA235E9FF100BDAE6F /* thumb_MD_gov_Lawrence_Hogan.jpg in Resources */,
+				012F3362235E21D000BDAE6F /* US_President_L_11.jpg in Resources */,
+				012F33C9235E9FF100BDAE6F /* thumb_NV_gov_Steve_Sisolak.jpg in Resources */,
 				012F32F7235B69CC00BDAE6F /* oh-rob-portman-republican.jpg in Resources */,
+				012F33DE235E9FF100BDAE6F /* thumb_MT_gov_Stephen_Bullock.jpg in Resources */,
+				012F335F235E21D000BDAE6F /* US_President_L_26.jpg in Resources */,
+				012F335E235E21D000BDAE6F /* US_President_L_45.jpg in Resources */,
+				012F33D9235E9FF100BDAE6F /* thumb_TX_gov_Gregory_Abbott.jpg in Resources */,
 				012F3313235B69CC00BDAE6F /* wi-tammy-baldwin-democrat.jpg in Resources */,
+				012F3386235E21D000BDAE6F /* US_President_L_3.jpg in Resources */,
 				012F3319235B69CC00BDAE6F /* pa-patrick-toomey-republican.jpg in Resources */,
 				012F32E7235B69CC00BDAE6F /* ia-joni-ernst-republican.jpg in Resources */,
+				012F33ED235E9FF100BDAE6F /* thumb_TN_gov_Bill_Lee.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,13 +1065,23 @@
 			files = (
 				014BD2FC2356686500F42BF0 /* President.swift in Sources */,
 				012F331E235D1B6200BDAE6F /* WebView.swift in Sources */,
+				012F3389235E73A200BDAE6F /* ShowWikipediaSenatorView.swift in Sources */,
 				014BD2E4235665F300F42BF0 /* AppDelegate.swift in Sources */,
+				012F3326235E110500BDAE6F /* SenatorListView.swift in Sources */,
+				012F3328235E111500BDAE6F /* SenatorRow.swift in Sources */,
 				014BD2FA2356673400F42BF0 /* PresidentDetailView.swift in Sources */,
+				012F33FB235EA44500BDAE6F /* ShowWikipediaGovernorView.swift in Sources */,
 				014BD3032356944F00F42BF0 /* PresidentRow.swift in Sources */,
+				012F3324235E10DF00BDAE6F /* Senator.swift in Sources */,
 				014BD2E6235665F300F42BF0 /* SceneDelegate.swift in Sources */,
 				014BD2E8235665F300F42BF0 /* ContentView.swift in Sources */,
+				012F33F9235EA27400BDAE6F /* GovernorDetailView.swift in Sources */,
+				012F33F5235EA25500BDAE6F /* GovernorListView.swift in Sources */,
+				012F338E235E9F7E00BDAE6F /* Governor.swift in Sources */,
+				012F332A235E112400BDAE6F /* SenatorDetailView.swift in Sources */,
 				014BD2F8235666B600F42BF0 /* PresidentListView.swift in Sources */,
 				014BD308235696B000F42BF0 /* Data.swift in Sources */,
+				012F33F7235EA26500BDAE6F /* GovernorRow.swift in Sources */,
 				012F331C235BC62A00BDAE6F /* ShowWikipediaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

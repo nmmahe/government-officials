@@ -14,12 +14,17 @@ struct ContentView: View {
             PresidentListView()
                 .tabItem{
                     Image(systemName: "1.square.fill")
-                    Text("Past U.S. Presidents")
+                    Text("U.S. Presidents")
             }
-            Text("Hello World 2")
+            SenatorListView()
                 .tabItem{
                     Image(systemName: "2.square.fill")
                     Text("Current U.S. Senators")
+            }
+            GovernorListView()
+                .tabItem{
+                    Image(systemName: "3.square.fill")
+                    Text("Current U.S. Governors")
             }
         }
     }

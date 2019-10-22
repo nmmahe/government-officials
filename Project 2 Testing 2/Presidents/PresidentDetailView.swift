@@ -14,19 +14,20 @@ struct PresidentDetailView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                //Text(president.name)
-                    //.font(.largeTitle)
-                president.image
-                Text(president.party.uppercased())
-                    .font(.headline)
-                    .foregroundColor(president.partyColor())
-                
-                Text(president.biography)
-                .padding()
-                
-            }
-            .navigationBarTitle(Text(president.name))
+            ScrollView{
+                VStack {
+                    //Text(president.name)
+                        //.font(.largeTitle)
+                    president.image
+                    Text(president.party.uppercased())
+                        .font(.headline)
+                        .foregroundColor(president.partyColor())
+                    
+                    Text(president.biography)
+                    .padding()
+                    
+                }
+            } .navigationBarTitle(Text(president.name))
             .navigationBarItems(trailing: Button(action: {self.showWikipediaModal = true}){
                 Text("Wikipedia")
             })
