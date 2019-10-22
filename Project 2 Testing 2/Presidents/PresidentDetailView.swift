@@ -16,9 +16,12 @@ struct PresidentDetailView: View {
         NavigationView {
             ScrollView{
                 VStack {
-                    //Text(president.name)
-                        //.font(.largeTitle)
                     president.image
+                        .padding()
+                        .shadow(radius: 10)
+
+                    Text("Entered Office: \(president.entered_office)")
+                    Spacer()
                     Text(president.party.uppercased())
                         .font(.headline)
                         .foregroundColor(president.partyColor())

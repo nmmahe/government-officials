@@ -16,13 +16,8 @@ struct SenatorRow: View {
             senator.image
             .resizable()
             .frame(width: 50, height: 50)
-            
             Text(senator.full_name)
-            
-            
-        }
-    
-    
+        }  
     }
 }
 

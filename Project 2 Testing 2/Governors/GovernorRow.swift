@@ -10,7 +10,6 @@ import SwiftUI
 
 struct GovernorRow: View {
     var governor: Governor
-    
     var body: some View {
         HStack{
             governor.image

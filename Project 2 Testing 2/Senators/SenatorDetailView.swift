@@ -24,10 +24,19 @@ struct SenatorDetailView: View {
                         .resizable()
                         .padding()
                         .frame(width:300, height:350)
-                Text("Lived: \(String(senator.birth_year))-\(senator.getDate(death: true, office: false))")
+                        .shadow(radius: 10)
+                    
+                    
+                    HStack{
+                    Text("Lived: \(String(senator.birth_year))-\(senator.getDate(death: true, office: false))")
+                        .padding()
+                        
                     Spacer()
                     Text("Served: \(senator.getDate(death: false, office: true))-\(senator.getDate(death: false, office: false))")
-                    Spacer()
+                        .padding()
+                    }
+                    .padding()
+                    
                     Text(senator.party.uppercased())
                         .font(.headline)
                         .foregroundColor(senator.partyColor())

@@ -12,22 +12,20 @@ struct GovernorDetailView: View {
     var governor: Governor
     
     @State var showWikipediaModal = false
-    
     var body: some View {
         
         NavigationView {
             ScrollView{
                 VStack {
-                    
                     governor.image
                         .resizable()
                         .padding()
                         .frame(width:300, height:350)
-                /*Text("Lived: \(String(senator.birth_year))-\(senator.getDate(death: true, office: false))")
-                    Spacer()*/
-                    /*Text("Served: \(governor.getDate(death: false, office: true))-\(senator.getDate(death: false, office: false))")*/
-                    //Spacer()
-                    Text(governor.party.uppercased())
+                        .shadow(radius: 10)
+
+                    Text("Entered Office: \(governor.tookOffice)")
+                    Spacer()
+                Text(governor.party.uppercased())
                         .font(.headline)
                         .foregroundColor(governor.partyColor())
                     
